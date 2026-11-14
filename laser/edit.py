@@ -31,17 +31,18 @@ def low_rank(W: torch.Tensor, rho: float, mode: str = "top", seed: int = 0) -> t
         raise ValueError(f"expected a 2-D matrix, got shape {tuple(W.shape)}")
     if mode not in MODES:
         raise ValueError(f"mode must be one of {MODES}")
-    W32 = W.float()
+    device = W.device
+    W32 = W.float().cpu()  # SVD/QR on CPU: not all are implemented on Apple-Silicon GPUs (MPS)
     k = kept_rank(tuple(W32.shape), rho)
     if mode == "random":
         g = torch.Generator(device="cpu").manual_seed(seed)
-        G = torch.randn(W32.shape[1], k, generator=g).to(W32.device)
+        G = torch.randn(W32.shape[1], k, generator=g)
         Q, _ = torch.linalg.qr(G)  # n x k, orthonormal columns
-        return W32 @ Q @ Q.T
+        return (W32 @ Q @ Q.T).to(device)
     U, S, Vh = torch.linalg.svd(W32, full_matrices=False)
     if mode == "top":
-        return (U[:, :k] * S[:k]) @ Vh[:k]
-    return (U[:, k:] * S[k:]) @ Vh[k:]
+        return ((U[:, :k] * S[:k]) @ Vh[:k]).to(device)
+    return ((U[:, k:] * S[k:]) @ Vh[k:]).to(device)
 
 
 @contextmanager

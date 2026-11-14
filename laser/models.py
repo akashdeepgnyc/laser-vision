@@ -9,15 +9,25 @@ from __future__ import annotations
 
 from dataclasses import dataclass, field
 
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
+
+def pick_device() -> str:
+    """NVIDIA GPU, else Apple-Silicon GPU (MPS), else CPU."""
+    if torch.cuda.is_available():
+        return "cuda"
+    if torch.backends.mps.is_available():
+        return "mps"
+    return "cpu"
+
 
 # name -> how to build it. "*_test" entries use random weights (no download) for CPU tests.
 MODELS = {
     "vit_b16": dict(family="timm_vit", timm_name="vit_base_patch16_224.augreg2_in21k_ft_in1k"),
     "resnet50": dict(family="timm_resnet", timm_name="resnet50.a1_in1k"),
-    "clip_b32": dict(family="openclip_vit", arch="ViT-B-32", pretrained="openai"),
+    "clip_b32": dict(family="openclip_vit", arch="ViT-B-32-quickgelu", pretrained="openai"),  # OpenAI weights use QuickGELU
     "vit_tiny_test": dict(family="timm_vit", timm_name="vit_tiny_patch16_224", pretrained=False),
     "resnet18_test": dict(family="timm_resnet", timm_name="resnet18", pretrained=False),
     "clip_test": dict(family="openclip_vit", arch="ViT-B-32", pretrained=None),
@@ -134,19 +144,21 @@ def _clip_text_weights(model, tokenizer, classnames, templates, device):
     return torch.stack(cols, dim=1).cpu()
 
 
-def load(name: str, device: str = "cpu", classnames=None, templates=None) -> Bundle:
+def load(name: str, device: str = "cpu", classnames=None, templates=None, random_init: bool = False) -> Bundle:
+    """random_init=True builds the same architecture with fresh initial weights (a reference
+    for what training changed). Note: this is the library's init, not the original run's."""
     spec = MODELS[name]
     fam = spec["family"]
     if fam in ("timm_vit", "timm_resnet"):
         import timm
-        model = timm.create_model(spec["timm_name"], pretrained=spec.get("pretrained", True))
+        model = timm.create_model(spec["timm_name"], pretrained=spec.get("pretrained", True) and not random_init)
         cfg = timm.data.resolve_data_config({}, model=model)
         pre = Preprocess(cfg["input_size"][-1], cfg["crop_pct"], cfg["interpolation"],
                          tuple(cfg["mean"]), tuple(cfg["std"]))
         targets = _vit_targets(model) if fam == "timm_vit" else _resnet_targets(model)
     elif fam == "openclip_vit":
         import open_clip
-        clip, _, _ = open_clip.create_model_and_transforms(spec["arch"], pretrained=spec["pretrained"])
+        clip, _, _ = open_clip.create_model_and_transforms(spec["arch"], pretrained=None if random_init else spec["pretrained"])
         tok = open_clip.get_tokenizer(spec["arch"])
         classnames = classnames or open_clip.IMAGENET_CLASSNAMES
         templates = templates or open_clip.OPENAI_IMAGENET_TEMPLATES

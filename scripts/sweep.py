@@ -33,7 +33,7 @@ ap.add_argument("--no-amp", action="store_true")
 ap.add_argument("--out", required=True)
 a = ap.parse_args()
 
-dev = "cuda" if torch.cuda.is_available() else "cpu"
+dev = models.pick_device()
 env = environment()
 print("ENV", env, flush=True)
 

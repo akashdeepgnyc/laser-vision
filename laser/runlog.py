@@ -21,7 +21,8 @@ def environment() -> dict:
         host=platform.node(),
         slurm_job=os.environ.get("SLURM_JOB_ID"),
         slurm_account=os.environ.get("SLURM_JOB_ACCOUNT"),
-        gpu=torch.cuda.get_device_name(0) if torch.cuda.is_available() else None,
+        gpu=torch.cuda.get_device_name(0) if torch.cuda.is_available()
+        else ("Apple MPS" if torch.backends.mps.is_available() else None),
         torch=torch.__version__,
         git_commit=git("rev-parse", "HEAD"),
         git_dirty=bool(git("status", "--porcelain")),
