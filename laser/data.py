@@ -33,12 +33,21 @@ def eval_transform(p: Preprocess):
 
 
 def prepare_imagefolder(src: str, out: str, p: Preprocess, workers: int = 8, batch: int = 256,
-                        limit: int | None = None) -> None:
-    """src: an ImageFolder tree (one subfolder per class, ImageNet wnid order)."""
-    ds = datasets.ImageFolder(src, transform=eval_transform(p))
-    n = len(ds) if limit is None else min(limit, len(ds))
+                        limit: int | None = None, per_class: int | None = None, seed: int = 0) -> None:
+    """src: an ImageFolder tree (one subfolder per class, ImageNet class order).
+    per_class=k keeps k random images from every class (a small subset that still covers all classes);
+    limit=N keeps the first N images in folder order (tests only)."""
+    full = datasets.ImageFolder(src, transform=eval_transform(p))
+    idx = list(range(len(full)))
+    if per_class is not None:
+        rng = np.random.default_rng(seed)
+        targets = np.array(full.targets)
+        idx = sorted(int(i) for c in np.unique(targets)
+                     for i in rng.permutation(np.flatnonzero(targets == c))[:per_class])
     if limit is not None:
-        ds = torch.utils.data.Subset(ds, list(range(n)))
+        idx = idx[:limit]
+    ds = full if len(idx) == len(full) else torch.utils.data.Subset(full, idx)
+    n = len(idx)
     out = Path(out)
     out.mkdir(parents=True, exist_ok=True)
     images = np.lib.format.open_memmap(out / "images.npy", mode="w+", dtype=np.uint8,
@@ -52,8 +61,8 @@ def prepare_imagefolder(src: str, out: str, p: Preprocess, workers: int = 8, bat
         i += len(x)
     images.flush()
     np.save(out / "labels.npy", labels)
-    base = ds.dataset if limit is not None else ds
-    meta = dict(source=str(src), n=n, preprocess=p.__dict__, preprocess_key=p.key, classes=base.classes)
+    meta = dict(source=str(src), n=n, per_class=per_class, preprocess=p.__dict__, preprocess_key=p.key,
+                classes=full.classes)
     (out / "meta.json").write_text(json.dumps(meta, indent=1))
     write_splits(out, labels)
 
