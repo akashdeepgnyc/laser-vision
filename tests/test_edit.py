@@ -36,3 +36,10 @@ def test_edit_restores_and_touches_only_its_qkv_slice():
         assert not torch.equal(p.data[:d], before[:d])        # q rows changed
         assert torch.equal(p.data[d:], before[d:])            # k, v rows untouched
     assert torch.equal(p.data, before)                        # restored
+
+
+def test_shrink_matches_top_norm_and_keeps_directions():
+    W = torch.randn(40, 70)
+    top, sh = low_rank(W, 0.1, "top"), low_rank(W, 0.1, "shrink")
+    assert torch.allclose(sh.norm(), top.norm(), rtol=1e-4)
+    assert torch.linalg.matrix_rank(sh) == torch.linalg.matrix_rank(W)

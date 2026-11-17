@@ -9,6 +9,9 @@ Modes
 top     : keep the k largest singular components (LASER).
 bottom  : keep only the components LASER would discard (W - W_top).   [control]
 random  : project W onto a random k-dimensional input subspace (W Q Q^T). [control]
+shrink  : scale the whole matrix, c * W, with c chosen so its size (Frobenius norm) equals
+          LASER's W_top at the same rho. Keeps every direction, only makes W smaller.  [control]
+          If shrink matches LASER, the effect is about size, not about which directions go.
 """
 from __future__ import annotations
 
@@ -16,7 +19,7 @@ from contextlib import contextmanager
 
 import torch
 
-MODES = ("top", "bottom", "random")
+MODES = ("top", "bottom", "random", "shrink")
 
 
 def kept_rank(shape: tuple[int, int], rho: float) -> int:
@@ -42,6 +45,9 @@ def low_rank(W: torch.Tensor, rho: float, mode: str = "top", seed: int = 0) -> t
     U, S, Vh = torch.linalg.svd(W32, full_matrices=False)
     if mode == "top":
         return ((U[:, :k] * S[:k]) @ Vh[:k]).to(device)
+    if mode == "shrink":
+        c = torch.sqrt((S[:k] ** 2).sum() / (S ** 2).sum())
+        return (W32 * c).to(device)
     return ((U[:, k:] * S[k:]) @ Vh[k:]).to(device)
 
 
