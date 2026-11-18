@@ -172,3 +172,13 @@ def load(name: str, device: str = "cpu", classnames=None, templates=None, random
     else:
         raise ValueError(fam)
     return Bundle(name, model.eval().to(device), pre, targets)
+
+
+def load_checkpoint(path: str, device: str = "cpu") -> Bundle:
+    """A fine-tuned timm ViT saved by scripts/finetune_lt.py."""
+    import timm
+    ck = torch.load(path, map_location="cpu", weights_only=False)
+    model = timm.create_model(ck["timm_name"], pretrained=False, num_classes=ck["num_classes"])
+    model.load_state_dict(ck["state_dict"])
+    pre = Preprocess(**ck["preprocess"])
+    return Bundle(f"ckpt:{path}", model.eval().to(device), pre, _vit_targets(model))

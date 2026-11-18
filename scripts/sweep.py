@@ -20,7 +20,8 @@ from laser.edit import edited
 from laser.runlog import ResultsFile, environment
 
 ap = argparse.ArgumentParser()
-ap.add_argument("--model", required=True, choices=list(models.MODELS))
+ap.add_argument("--model", required=True, help=f"one of {list(models.MODELS)}, or a name for --checkpoint")
+ap.add_argument("--checkpoint", default=None, help="fine-tuned model.pt from finetune_lt.py")
 ap.add_argument("--data", required=True, help="prepared dataset dir (from prep_images.py)")
 ap.add_argument("--split", default="select", choices=["select", "report", "all"])
 ap.add_argument("--limit", type=int, default=None)
@@ -40,8 +41,8 @@ dev = models.pick_device()
 env = environment()
 print("ENV", env, flush=True)
 
-bundle = models.load(a.model, device=dev)
-images, labels, meta = data.load_prepared(a.data, a.split, a.limit)
+bundle = models.load_checkpoint(str(Path(a.checkpoint).expanduser()), dev) if a.checkpoint else models.load(a.model, device=dev)
+images, labels, meta = data.load_prepared(str(Path(a.data).expanduser()), a.split, a.limit)
 if meta["preprocess_key"] != bundle.preprocess.key:
     print(f"WARNING: data prepared with {meta['preprocess_key']}, model expects {bundle.preprocess.key}")
 gpu = evaluate.GPUImages(images, bundle.preprocess.mean, bundle.preprocess.std, dev)
