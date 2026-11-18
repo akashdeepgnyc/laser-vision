@@ -12,6 +12,9 @@ random  : project W onto a random k-dimensional input subspace (W Q Q^T). [contr
 shrink  : scale the whole matrix, c * W, with c chosen so its size (Frobenius norm) equals
           LASER's W_top at the same rho. Keeps every direction, only makes W smaller.  [control]
           If shrink matches LASER, the effect is about size, not about which directions go.
+prune   : magnitude pruning at LASER's parameter budget: keep the s = k(m+n) largest-magnitude
+          entries (the parameters needed to store rank-k factors), zero the rest.  [comparison]
+          Best s-sparse approximation, as top is the best rank-k one; usually stays near full rank.
 """
 from __future__ import annotations
 
@@ -19,7 +22,7 @@ from contextlib import contextmanager
 
 import torch
 
-MODES = ("top", "bottom", "random", "shrink")
+MODES = ("top", "bottom", "random", "shrink", "prune")
 
 
 def kept_rank(shape: tuple[int, int], rho: float) -> int:
@@ -37,6 +40,13 @@ def low_rank(W: torch.Tensor, rho: float, mode: str = "top", seed: int = 0) -> t
     device = W.device
     W32 = W.float().cpu()  # SVD/QR on CPU: not all are implemented on Apple-Silicon GPUs (MPS)
     k = kept_rank(tuple(W32.shape), rho)
+    if mode == "prune":
+        m, n = W32.shape
+        s = min(k * (m + n), m * n)
+        if s >= m * n:
+            return W32.to(device)
+        thr = torch.topk(W32.abs().flatten(), s, sorted=False).values.min()
+        return (W32 * (W32.abs() >= thr)).to(device)
     if mode == "random":
         g = torch.Generator(device="cpu").manual_seed(seed)
         G = torch.randn(W32.shape[1], k, generator=g)

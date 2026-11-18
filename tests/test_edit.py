@@ -43,3 +43,12 @@ def test_shrink_matches_top_norm_and_keeps_directions():
     top, sh = low_rank(W, 0.1, "top"), low_rank(W, 0.1, "shrink")
     assert torch.allclose(sh.norm(), top.norm(), rtol=1e-4)
     assert torch.linalg.matrix_rank(sh) == torch.linalg.matrix_rank(W)
+
+
+def test_prune_budget_and_rank():
+    W = torch.randn(64, 96)
+    P = low_rank(W, 0.1, "prune")                      # k = 6 -> budget 6 * (64 + 96) = 960 entries
+    assert int((P != 0).sum()) == 960
+    kept = W.abs()[P != 0].min()
+    assert kept >= W.abs()[P == 0].max()               # keeps exactly the largest-magnitude entries
+    assert torch.linalg.matrix_rank(P) > 6             # sparse, but far higher rank than LASER's 6

@@ -21,9 +21,9 @@ class GPUImages:
 
 @torch.no_grad()
 def logits(model, data: GPUImages, bs: int = 256, amp: bool = True) -> torch.Tensor:
-    dev = data.x.device
+    from .cache import autocast  # bf16 on NVIDIA, fp16 on Apple-Silicon GPUs
     outs = []
-    with torch.autocast(device_type=dev.type, dtype=torch.bfloat16, enabled=amp and dev.type == "cuda"):
+    with autocast(data.x.device, amp):
         for xb in data.batches(bs):
             outs.append(model(xb).float())
     return torch.cat(outs).cpu()
