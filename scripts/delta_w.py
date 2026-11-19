@@ -27,6 +27,8 @@ ap.add_argument("--dir", required=True, help="finetune_lt.py output folder (mode
 ap.add_argument("--out", required=True)
 ap.add_argument("--eval", action="store_true")
 ap.add_argument("--ranks", default="4,16,64")
+ap.add_argument("--modes", default="top", help="top = keep dW's strongest r directions; shrink = scale all of dW "
+                "to the same size as top; random = dW on a random r-dim input subspace (controls)")
 ap.add_argument("--split", default="select")
 ap.add_argument("--limit", type=int, default=None)
 ap.add_argument("--batch", type=int, default=128)
@@ -96,13 +98,22 @@ if a.eval:
 
     res = [dict(config="fine-tuned (full dW)", **score(final))]
     for r in [int(x) for x in a.ranks.split(",")]:
-        b = models.load_checkpoint(str(root / "model.pt"), "cpu")  # head, norms, biases stay fine-tuned
-        for t in b.targets:
-            param = t.parameter()
-            dW = t.read(param.data).float() - W0[t.name]
-            U, S, Vh = torch.linalg.svd(dW, full_matrices=False)
-            t.write(param.data, W0[t.name] + (U[:, :r] * S[:r]) @ Vh[:r])
-        res.append(dict(config=f"pretrained + rank-{r} dW", **score(b)))
+        for mode in a.modes.split(","):
+            b = models.load_checkpoint(str(root / "model.pt"), "cpu")  # head, norms, biases stay fine-tuned
+            g = torch.Generator().manual_seed(0)
+            for t in b.targets:
+                param = t.parameter()
+                dW = t.read(param.data).float() - W0[t.name]
+                if mode == "random":
+                    Q, _ = torch.linalg.qr(torch.randn(dW.shape[1], r, generator=g))
+                    new = dW @ Q @ Q.T
+                else:
+                    U, S, Vh = torch.linalg.svd(dW, full_matrices=False)
+                    new = (U[:, :r] * S[:r]) @ Vh[:r] if mode == "top" else \
+                        dW * torch.sqrt((S[:r] ** 2).sum() / (S ** 2).sum())
+                t.write(param.data, W0[t.name] + new)
+            label = f"pretrained + rank-{r} dW" + ("" if mode == "top" else f" ({mode})")
+            res.append(dict(config=label, **score(b)))
     b = models.load_checkpoint(str(root / "model.pt"), "cpu")
     for t in b.targets:
         t.write(t.parameter().data, W0[t.name])

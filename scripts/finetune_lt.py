@@ -54,6 +54,8 @@ def main():
     ap.add_argument("--wd", type=float, default=0.05)
     ap.add_argument("--seed", type=int, default=0)
     ap.add_argument("--save-every", type=int, default=0, help="also save weights every N epochs (for spectral dynamics)")
+    ap.add_argument("--lora", type=int, default=0, help="train LoRA adapters of this rank (+ head) instead of all weights")
+    ap.add_argument("--lora-alpha", type=float, default=None, help="default 2 x rank")
     ap.add_argument("--fake", action="store_true", help="tiny random data and random-init model (tests)")
     a = ap.parse_args()
     out = Path(a.out).expanduser()
@@ -103,7 +105,13 @@ def main():
     xsel = torch.from_numpy(np.ascontiguousarray(imgs[sel])).to(dev)
     ysel = yte[sel]
 
-    opt = torch.optim.AdamW(model.parameters(), lr=a.lr, weight_decay=a.wd)
+    if a.lora:
+        from laser import lora
+        params = lora.wrap(model, a.lora, a.lora_alpha)
+        print(f"LoRA rank {a.lora}: {sum(p.numel() for p in params):,} trainable parameters", flush=True)
+    else:
+        params = list(model.parameters())
+    opt = torch.optim.AdamW(params, lr=a.lr, weight_decay=a.wd)
     steps_per_epoch = math.ceil(len(ytr) / a.batch)
     total, warm = a.epochs * steps_per_epoch, steps_per_epoch
     sched = torch.optim.lr_scheduler.LambdaLR(opt, lambda s: min(1.0, (s + 1) / warm) *
@@ -111,8 +119,12 @@ def main():
     g = torch.Generator().manual_seed(a.seed)
 
     def save(path):
-        torch.save(dict(timm_name=a.model, num_classes=n_cls, preprocess=pre.__dict__,
-                        state_dict={k: v.cpu() for k, v in model.state_dict().items()}), path)
+        if a.lora:
+            sd = lora.merged_state_dict(model)
+        else:
+            sd = {k: v.cpu() for k, v in model.state_dict().items()}
+        torch.save(dict(timm_name=a.model, num_classes=n_cls, preprocess=pre.__dict__, lora=a.lora,
+                        state_dict=sd), path)
 
     @torch.no_grad()
     def evaluate():
