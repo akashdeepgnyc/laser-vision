@@ -43,7 +43,10 @@ targets = [t for t in bundle.targets if a.mtypes is None or t.mtype in a.mtypes.
 rhos = sorted(float(r) for r in a.rhos.split(","))
 if a.sweep:  # least single-cut damage (at the hardest rho) first
     rows = [json.loads(l) for l in open(a.sweep)]
-    damage = {r["target"]: r["acc"] for r in rows if r["mode"] == a.mode and r["rho"] == min(rhos)}
+    avail = sorted({r["rho"] for r in rows if r["mode"] == a.mode})  # nearest rho the sweep has
+    ref = min(avail, key=lambda x: abs(x - min(rhos))) if avail else None
+    damage = {r["target"]: r["acc"] for r in rows if r["mode"] == a.mode and r["rho"] == ref}
+    print(f"order: single-cut damage at rho={ref} from {a.sweep}", flush=True)
     targets.sort(key=lambda t: -damage.get(t.name, -1.0))
 else:
     targets.sort(key=lambda t: (not t.mtype.startswith("attn"), -t.layer))
