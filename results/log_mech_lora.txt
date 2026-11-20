@@ -1,0 +1,29 @@
+config 1.0: train acc 100.0, test acc 79.3
+config 0.7: train acc 99.9, test acc 82.3
+config 0.5: train acc 99.5, test acc 83.0
+config 0.3: train acc 98.0, test acc 82.3
+config cut: train acc 100.0, test acc 79.3
+
+Mean per class, by version of the model and class group (report half for test columns):
+               train_acc  test_acc  margin  tight  sim_own  sim_gap
+config bin                                                         
+1.0    many      100.000    94.171   9.863  0.736    0.693    0.338
+       medium    100.000    79.371   5.703  0.729    0.644    0.238
+       few       100.000    61.800   1.794  0.735    0.576    0.172
+0.7    many       99.954    94.343   8.629  0.722    0.688    0.334
+       medium     99.920    82.629   5.573  0.725    0.659    0.256
+       few        99.815    67.867   2.529  0.739    0.603    0.211
+0.5    many       99.561    93.943   7.362  0.709    0.683    0.309
+       medium     99.350    82.914   4.987  0.719    0.668    0.247
+       few        99.630    70.333   2.461  0.741    0.622    0.218
+0.3    many       98.195    93.371   5.790  0.698    0.682    0.264
+       medium     97.203    81.429   4.041  0.714    0.678    0.219
+       few        97.880    70.333   1.963  0.743    0.644    0.201
+cut    many      100.000    94.171   9.863  0.736    0.693    0.338
+       medium    100.000    79.314   5.703  0.729    0.644    0.238
+       few       100.000    61.800   1.794  0.735    0.576    0.172
+/Users/akago/Documents/scdl/laser-vision/scripts/mechanism.py:159: UserWarning: Tight layout not applied. tight_layout cannot make Axes width small enough to accommodate all Axes decorations
+  fig.tight_layout(h_pad=3)
+
+rare-class test images fixed by shrinking: 153, broken by cutting: 0 (of 1500 rare-class test images)
+MECH_OK results/mech_lora_s0
