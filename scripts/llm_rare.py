@@ -117,10 +117,11 @@ def count(q):
         return int(abs(hash(q)) % 10000)
     body = json.dumps({"index": "v4_piletrain_llama", "query_type": "count", "query": q,
                        "max_diff_tokens": 100}).encode()
-    for attempt in range(5):
+    for attempt in range(3):
         try:
             req = urllib.request.Request("https://api.infini-gram.io/", data=body,
-                                         headers={"Content-Type": "application/json"})
+                                         headers={"Content-Type": "application/json", "Accept": "application/json",
+                                                  "User-Agent": "Mozilla/5.0 (Macintosh) laser-vision-research"})
             d = json.loads(urllib.request.urlopen(req, timeout=60).read())
             if "error" in d:
                 raise RuntimeError(d["error"])
@@ -132,6 +133,8 @@ def count(q):
     return None
 
 
+if count("Eiffel Tower AND Paris") is None:
+    raise SystemExit("infini-gram API not reachable (see error above); counts skipped")
 queries = [f"{s.strip()} AND {t.strip()}" for _, t, s in facts]
 todo = sorted({q for q in queries if q not in cache})
 print(f"Pile counts: {len(queries) - sum(q not in cache for q in queries)} cached, {len(todo)} to fetch", flush=True)
