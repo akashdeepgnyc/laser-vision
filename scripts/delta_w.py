@@ -96,7 +96,9 @@ if a.eval:
         bundle.model.cpu()
         return {"all": ok.mean() * 100, **{bn: ok[bins == bn].mean() * 100 for bn in ("many", "medium", "few")}}
 
+    print("scoring the fine-tuned model...", flush=True)
     res = [dict(config="fine-tuned (full dW)", **score(final))]
+    print("scored:", res[-1], flush=True)
     for r in [int(x) for x in a.ranks.split(",")]:
         for mode in a.modes.split(","):
             b = models.load_checkpoint(str(root / "model.pt"), "cpu")  # head, norms, biases stay fine-tuned
@@ -114,6 +116,7 @@ if a.eval:
                 t.write(param.data, W0[t.name] + new)
             label = f"pretrained + rank-{r} dW" + ("" if mode == "top" else f" ({mode})")
             res.append(dict(config=label, **score(b)))
+            print("scored:", res[-1], flush=True)
     b = models.load_checkpoint(str(root / "model.pt"), "cpu")
     for t in b.targets:
         t.write(t.parameter().data, W0[t.name])
