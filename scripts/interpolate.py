@@ -15,6 +15,7 @@ from laser import cifar_lt, data, evaluate, models
 
 ap = argparse.ArgumentParser()
 ap.add_argument("--dir", required=True)
+ap.add_argument("--ckpt", default="model.pt", help="checkpoint file inside --dir (e.g. model_epoch4.pt)")
 ap.add_argument("--scales", default="0.3,0.4,0.5,0.6,0.7,0.8,0.9,1.0")
 ap.add_argument("--splits", default="select,report")
 ap.add_argument("--taus", default="0", help="post-hoc logit adjustment (Menon et al. 2021): logits - tau*log(train prior)")
@@ -26,13 +27,13 @@ a = ap.parse_args()
 root = Path(a.dir).expanduser()
 dev = models.pick_device()
 
-ck = torch.load(root / "model.pt", map_location="cpu", weights_only=False)
+ck = torch.load(root / a.ckpt, map_location="cpu", weights_only=False)
 import timm
 if a.fake:
     torch.manual_seed(123)
 pre = timm.create_model(ck["timm_name"], pretrained=not a.fake, num_classes=ck["num_classes"])
 W0 = {t.name: t.read(t.parameter().data).float().clone() for t in models._vit_targets(pre)}
-b = models.load_checkpoint(str(root / "model.pt"), dev)
+b = models.load_checkpoint(str(root / a.ckpt), dev)
 dW = {t.name: t.read(t.parameter().data).float().cpu() - W0[t.name] for t in b.targets}
 
 sets = {}
