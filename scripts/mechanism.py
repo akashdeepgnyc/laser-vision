@@ -151,12 +151,15 @@ for r, (title, ix, before, after) in enumerate(groups):
     for c in range(8):
         ax = axes[r, c]
         ax.axis("off")
+        if c == 0 and len(ix) == 0:
+            ax.text(0, 0.5, "none (nothing to cut: the update has fewer directions than the cut keeps)",
+                    transform=ax.transAxes, fontsize=10, ha="left")
         if c < len(ix):
             i = ix[c]
             ax.imshow(np.transpose(xte[i], (1, 2, 0)))
             ax.set_title(f"{names[yte[i]]} ({counts[yte[i]]} train)\n{names[before[i]]} → {names[after[i]]}", fontsize=8)
     axes[r, 0].text(-0.1, 1.32, title, transform=axes[r, 0].transAxes, fontsize=11, ha="left")
-fig.tight_layout(h_pad=3)
+fig.subplots_adjust(top=0.82, bottom=0.03, hspace=0.75, wspace=0.15)
 fig.savefig(str(out) + "_flips.png", dpi=140)
 print(f"\nrare-class test images fixed by shrinking: {len(fixed)}, broken by cutting: {len(broken)} "
       f"(of {few.sum()} rare-class test images)")
