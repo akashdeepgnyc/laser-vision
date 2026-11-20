@@ -1,0 +1,29 @@
+Loading weights:   0%|          | 0/292 [00:00<?, ?it/s]Loading weights: 100%|██████████| 292/292 [00:00<00:00, 20273.74it/s]
+baseline: select acc 7.25 loss 6.1988 | report acc 6.25 loss 6.3671 (39.7s)
+24 matrices x 2 rhos x 2 modes
+layers.12.mlp_in|0.1|top: select acc 7.00 loss 6.2565 | report acc 5.85 loss 6.4245 (33.3s)
+layers.12.mlp_in|0.1|shrink: select acc 7.15 loss 6.2431 | report acc 6.25 loss 6.4210 (33.0s)
+layers.12.mlp_in|0.01|top: select acc 6.40 loss 6.3100 | report acc 5.70 loss 6.4649 (33.2s)
+layers.12.mlp_in|0.01|shrink: select acc 7.20 loss 6.2724 | report acc 6.35 loss 6.4513 (33.0s)
+layers.12.mlp_out|0.1|top: select acc 6.95 loss 6.3054 | report acc 5.25 loss 6.4735 (33.5s)
+layers.12.mlp_out|0.1|shrink: select acc 7.65 loss 6.2180 | report acc 6.40 loss 6.3903 (33.0s)
+layers.12.mlp_out|0.01|top: select acc 7.85 loss 6.2854 | report acc 6.00 loss 6.4592 (35.1s)
+layers.12.mlp_out|0.01|shrink: select acc 7.50 loss 6.2470 | report acc 6.30 loss 6.4230 (33.7s)
+layers.13.mlp_in|0.1|top: select acc 7.00 loss 6.2677 | report acc 6.15 loss 6.4193 (33.4s)
+layers.13.mlp_in|0.1|shrink: select acc 6.75 loss 6.1605 | report acc 6.30 loss 6.3222 (33.4s)
+layers.13.mlp_in|0.01|top: select acc 5.95 loss 6.2519 | report acc 5.45 loss 6.3965 (33.0s)
+layers.13.mlp_in|0.01|shrink: select acc 6.95 loss 6.1875 | report acc 6.00 loss 6.3415 (33.3s)
+layers.13.mlp_out|0.1|top: select acc 7.00 loss 6.2016 | report acc 6.15 loss 6.3757 (33.6s)
+Traceback (most recent call last):
+  File "/Users/akago/Documents/scdl/laser-vision/scripts/llm_laser.py", line 158, in <module>
+    record(key, dict(target=t.name, layer=t.layer, mtype=t.mtype, rho=rho, mode=mode))
+  File "/Users/akago/Documents/scdl/laser-vision/scripts/llm_laser.py", line 138, in record
+    acc, loss, lT = evaluate(idx)
+                    ^^^^^^^^^^^^^
+  File "/Users/akago/Documents/scdl/laser-vision/.venv/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/akago/Documents/scdl/laser-vision/scripts/llm_laser.py", line 120, in evaluate
+    lossT.append([float(-F.log_softmax(lg / T, -1).gather(1, tgt[:, None]).mean()) for T in TEMPS])
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

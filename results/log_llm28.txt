@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "/Users/akago/Documents/scdl/laser-vision/scripts/llm_laser.py", line 22, in <module>
+    import numpy as np
+  File "/Users/akago/Documents/scdl/laser-vision/.venv/lib/python3.12/site-packages/numpy/__init__.py", line 828, in <module>
+    _mac_os_check()
+  File "/Users/akago/Documents/scdl/laser-vision/.venv/lib/python3.12/site-packages/numpy/__init__.py", line 821, in _mac_os_check
+    _ = polyfit(x, y, 2, cov=True)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/akago/Documents/scdl/laser-vision/.venv/lib/python3.12/site-packages/numpy/lib/_polynomial_impl.py", line 677, in polyfit
+    c, resids, rank, s = lstsq(lhs, rhs, rcond)
+                         ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/akago/Documents/scdl/laser-vision/.venv/lib/python3.12/site-packages/numpy/linalg/_linalg.py", line 2556, in lstsq
+    x, resids, rank, s = _umath_linalg.lstsq(a, b, rcond,
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

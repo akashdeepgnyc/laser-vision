@@ -1,0 +1,164 @@
+{
+ "model": "vit_b16",
+ "checkpoint": null,
+ "mode": "top",
+ "tol": 5.0,
+ "limit": 2000,
+ "split": "select",
+ "baseline_acc": 83.45000147819519,
+ "final_acc": 78.50000262260437,
+ "cuts": 12,
+ "matrices": 72,
+ "matrix_params_dense": 84934656,
+ "matrix_params_after": 75600384,
+ "plan": [
+  {
+   "target": "blocks.0.attn_out",
+   "rho": 0.01,
+   "mode": "top",
+   "k": 7
+  },
+  {
+   "target": "blocks.0.attn_v",
+   "rho": 0.01,
+   "mode": "top",
+   "k": 7
+  },
+  {
+   "target": "blocks.11.mlp_out",
+   "rho": 0.01,
+   "mode": "top",
+   "k": 7
+  },
+  {
+   "target": "blocks.4.attn_k",
+   "rho": 0.01,
+   "mode": "top",
+   "k": 7
+  },
+  {
+   "target": "blocks.8.attn_k",
+   "rho": 0.01,
+   "mode": "top",
+   "k": 7
+  },
+  {
+   "target": "blocks.10.attn_q",
+   "rho": 0.01,
+   "mode": "top",
+   "k": 7
+  },
+  {
+   "target": "blocks.11.mlp_in",
+   "rho": 0.01,
+   "mode": "top",
+   "k": 7
+  },
+  {
+   "target": "blocks.1.attn_k",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.6.attn_v",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.7.attn_k",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.0.attn_q",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.4.attn_q",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  }
+ ],
+ "trajectory": [
+  {
+   "cuts": 1,
+   "target": "blocks.0.attn_out",
+   "rho": 0.01,
+   "acc": 83.24999809265137
+  },
+  {
+   "cuts": 2,
+   "target": "blocks.0.attn_v",
+   "rho": 0.01,
+   "acc": 82.95000195503235
+  },
+  {
+   "cuts": 3,
+   "target": "blocks.11.mlp_out",
+   "rho": 0.01,
+   "acc": 82.40000009536743
+  },
+  {
+   "cuts": 4,
+   "target": "blocks.4.attn_k",
+   "rho": 0.01,
+   "acc": 81.74999952316284
+  },
+  {
+   "cuts": 5,
+   "target": "blocks.8.attn_k",
+   "rho": 0.01,
+   "acc": 80.59999942779541
+  },
+  {
+   "cuts": 6,
+   "target": "blocks.10.attn_q",
+   "rho": 0.01,
+   "acc": 79.50000166893005
+  },
+  {
+   "cuts": 7,
+   "target": "blocks.11.mlp_in",
+   "rho": 0.01,
+   "acc": 79.3500006198883
+  },
+  {
+   "cuts": 8,
+   "target": "blocks.1.attn_k",
+   "rho": 0.2,
+   "acc": 79.04999852180481
+  },
+  {
+   "cuts": 9,
+   "target": "blocks.6.attn_v",
+   "rho": 0.2,
+   "acc": 78.60000133514404
+  },
+  {
+   "cuts": 10,
+   "target": "blocks.7.attn_k",
+   "rho": 0.2,
+   "acc": 78.60000133514404
+  },
+  {
+   "cuts": 11,
+   "target": "blocks.0.attn_q",
+   "rho": 0.2,
+   "acc": 78.64999771118164
+  },
+  {
+   "cuts": 12,
+   "target": "blocks.4.attn_q",
+   "rho": 0.2,
+   "acc": 78.50000262260437
+  }
+ ],
+ "report_acc": 78.70000004768372,
+ "report_baseline_acc": 84.64999794960022
+}

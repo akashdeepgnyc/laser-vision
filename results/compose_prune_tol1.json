@@ -1,0 +1,152 @@
+{
+ "model": "vit_b16",
+ "checkpoint": null,
+ "mode": "prune",
+ "tol": 1.0,
+ "limit": 2000,
+ "split": "select",
+ "baseline_acc": 83.45000147819519,
+ "final_acc": 82.4500024318695,
+ "cuts": 11,
+ "matrices": 72,
+ "matrix_params_dense": 84934656,
+ "matrix_params_after": 78263040,
+ "plan": [
+  {
+   "target": "blocks.0.attn_v",
+   "rho": 0.01,
+   "mode": "prune",
+   "k": 7
+  },
+  {
+   "target": "blocks.0.attn_out",
+   "rho": 0.01,
+   "mode": "prune",
+   "k": 7
+  },
+  {
+   "target": "blocks.2.attn_k",
+   "rho": 0.01,
+   "mode": "prune",
+   "k": 7
+  },
+  {
+   "target": "blocks.11.attn_q",
+   "rho": 0.1,
+   "mode": "prune",
+   "k": 76
+  },
+  {
+   "target": "blocks.11.mlp_out",
+   "rho": 0.01,
+   "mode": "prune",
+   "k": 7
+  },
+  {
+   "target": "blocks.3.attn_q",
+   "rho": 0.2,
+   "mode": "prune",
+   "k": 153
+  },
+  {
+   "target": "blocks.7.attn_k",
+   "rho": 0.2,
+   "mode": "prune",
+   "k": 153
+  },
+  {
+   "target": "blocks.8.attn_q",
+   "rho": 0.2,
+   "mode": "prune",
+   "k": 153
+  },
+  {
+   "target": "blocks.5.attn_v",
+   "rho": 0.2,
+   "mode": "prune",
+   "k": 153
+  },
+  {
+   "target": "blocks.10.attn_q",
+   "rho": 0.2,
+   "mode": "prune",
+   "k": 153
+  },
+  {
+   "target": "blocks.5.attn_k",
+   "rho": 0.2,
+   "mode": "prune",
+   "k": 153
+  }
+ ],
+ "trajectory": [
+  {
+   "cuts": 1,
+   "target": "blocks.0.attn_v",
+   "rho": 0.01,
+   "acc": 83.55000019073486
+  },
+  {
+   "cuts": 2,
+   "target": "blocks.0.attn_out",
+   "rho": 0.01,
+   "acc": 83.1499993801117
+  },
+  {
+   "cuts": 3,
+   "target": "blocks.2.attn_k",
+   "rho": 0.01,
+   "acc": 82.55000114440918
+  },
+  {
+   "cuts": 4,
+   "target": "blocks.11.attn_q",
+   "rho": 0.1,
+   "acc": 82.4999988079071
+  },
+  {
+   "cuts": 5,
+   "target": "blocks.11.mlp_out",
+   "rho": 0.01,
+   "acc": 82.4500024318695
+  },
+  {
+   "cuts": 6,
+   "target": "blocks.3.attn_q",
+   "rho": 0.2,
+   "acc": 82.4500024318695
+  },
+  {
+   "cuts": 7,
+   "target": "blocks.7.attn_k",
+   "rho": 0.2,
+   "acc": 82.55000114440918
+  },
+  {
+   "cuts": 8,
+   "target": "blocks.8.attn_q",
+   "rho": 0.2,
+   "acc": 82.4999988079071
+  },
+  {
+   "cuts": 9,
+   "target": "blocks.5.attn_v",
+   "rho": 0.2,
+   "acc": 82.55000114440918
+  },
+  {
+   "cuts": 10,
+   "target": "blocks.10.attn_q",
+   "rho": 0.2,
+   "acc": 82.55000114440918
+  },
+  {
+   "cuts": 11,
+   "target": "blocks.5.attn_k",
+   "rho": 0.2,
+   "acc": 82.4500024318695
+  }
+ ],
+ "report_acc": 82.89999961853027,
+ "report_baseline_acc": 84.64999794960022
+}

@@ -1,0 +1,884 @@
+{
+ "model": "vit_b16",
+ "checkpoint": null,
+ "mode": "top",
+ "tol": 100.0,
+ "limit": 2000,
+ "split": "select",
+ "baseline_acc": 83.45000147819519,
+ "final_acc": 0.1500000013038516,
+ "cuts": 72,
+ "matrices": 72,
+ "matrix_params_dense": 84934656,
+ "matrix_params_after": 25380864,
+ "plan": [
+  {
+   "target": "blocks.0.attn_q",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.0.attn_k",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.0.attn_v",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.0.attn_out",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.0.mlp_in",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.0.mlp_out",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.1.attn_q",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.1.attn_k",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.1.attn_v",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.1.attn_out",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.1.mlp_in",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.1.mlp_out",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.2.attn_q",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.2.attn_k",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.2.attn_v",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.2.attn_out",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.2.mlp_in",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.2.mlp_out",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.3.attn_q",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.3.attn_k",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.3.attn_v",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.3.attn_out",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.3.mlp_in",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.3.mlp_out",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.4.attn_q",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.4.attn_k",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.4.attn_v",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.4.attn_out",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.4.mlp_in",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.4.mlp_out",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.5.attn_q",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.5.attn_k",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.5.attn_v",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.5.attn_out",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.5.mlp_in",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.5.mlp_out",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.6.attn_q",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.6.attn_k",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.6.attn_v",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.6.attn_out",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.6.mlp_in",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.6.mlp_out",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.7.attn_q",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.7.attn_k",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.7.attn_v",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.7.attn_out",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.7.mlp_in",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.7.mlp_out",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.8.attn_q",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.8.attn_k",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.8.attn_v",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.8.attn_out",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.8.mlp_in",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.8.mlp_out",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.9.attn_q",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.9.attn_k",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.9.attn_v",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.9.attn_out",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.9.mlp_in",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.9.mlp_out",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.10.attn_q",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.10.attn_k",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.10.attn_v",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.10.attn_out",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.10.mlp_in",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.10.mlp_out",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.11.attn_q",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.11.attn_k",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.11.attn_v",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.11.attn_out",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.11.mlp_in",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  },
+  {
+   "target": "blocks.11.mlp_out",
+   "rho": 0.2,
+   "mode": "top",
+   "k": 153
+  }
+ ],
+ "trajectory": [
+  {
+   "cuts": 1,
+   "target": "blocks.0.attn_q",
+   "rho": 0.2,
+   "acc": 83.45000147819519
+  },
+  {
+   "cuts": 2,
+   "target": "blocks.0.attn_k",
+   "rho": 0.2,
+   "acc": 83.60000252723694
+  },
+  {
+   "cuts": 3,
+   "target": "blocks.0.attn_v",
+   "rho": 0.2,
+   "acc": 83.39999914169312
+  },
+  {
+   "cuts": 4,
+   "target": "blocks.0.attn_out",
+   "rho": 0.2,
+   "acc": 83.30000042915344
+  },
+  {
+   "cuts": 5,
+   "target": "blocks.0.mlp_in",
+   "rho": 0.2,
+   "acc": 80.54999709129333
+  },
+  {
+   "cuts": 6,
+   "target": "blocks.0.mlp_out",
+   "rho": 0.2,
+   "acc": 77.89999842643738
+  },
+  {
+   "cuts": 7,
+   "target": "blocks.1.attn_q",
+   "rho": 0.2,
+   "acc": 77.89999842643738
+  },
+  {
+   "cuts": 8,
+   "target": "blocks.1.attn_k",
+   "rho": 0.2,
+   "acc": 77.70000100135803
+  },
+  {
+   "cuts": 9,
+   "target": "blocks.1.attn_v",
+   "rho": 0.2,
+   "acc": 77.99999713897705
+  },
+  {
+   "cuts": 10,
+   "target": "blocks.1.attn_out",
+   "rho": 0.2,
+   "acc": 77.99999713897705
+  },
+  {
+   "cuts": 11,
+   "target": "blocks.1.mlp_in",
+   "rho": 0.2,
+   "acc": 76.5999972820282
+  },
+  {
+   "cuts": 12,
+   "target": "blocks.1.mlp_out",
+   "rho": 0.2,
+   "acc": 75.24999976158142
+  },
+  {
+   "cuts": 13,
+   "target": "blocks.2.attn_q",
+   "rho": 0.2,
+   "acc": 75.3000020980835
+  },
+  {
+   "cuts": 14,
+   "target": "blocks.2.attn_k",
+   "rho": 0.2,
+   "acc": 74.94999766349792
+  },
+  {
+   "cuts": 15,
+   "target": "blocks.2.attn_v",
+   "rho": 0.2,
+   "acc": 74.50000047683716
+  },
+  {
+   "cuts": 16,
+   "target": "blocks.2.attn_out",
+   "rho": 0.2,
+   "acc": 72.35000133514404
+  },
+  {
+   "cuts": 17,
+   "target": "blocks.2.mlp_in",
+   "rho": 0.2,
+   "acc": 66.44999980926514
+  },
+  {
+   "cuts": 18,
+   "target": "blocks.2.mlp_out",
+   "rho": 0.2,
+   "acc": 65.24999737739563
+  },
+  {
+   "cuts": 19,
+   "target": "blocks.3.attn_q",
+   "rho": 0.2,
+   "acc": 64.49999809265137
+  },
+  {
+   "cuts": 20,
+   "target": "blocks.3.attn_k",
+   "rho": 0.2,
+   "acc": 65.14999866485596
+  },
+  {
+   "cuts": 21,
+   "target": "blocks.3.attn_v",
+   "rho": 0.2,
+   "acc": 65.14999866485596
+  },
+  {
+   "cuts": 22,
+   "target": "blocks.3.attn_out",
+   "rho": 0.2,
+   "acc": 61.650002002716064
+  },
+  {
+   "cuts": 23,
+   "target": "blocks.3.mlp_in",
+   "rho": 0.2,
+   "acc": 48.94999861717224
+  },
+  {
+   "cuts": 24,
+   "target": "blocks.3.mlp_out",
+   "rho": 0.2,
+   "acc": 46.59999907016754
+  },
+  {
+   "cuts": 25,
+   "target": "blocks.4.attn_q",
+   "rho": 0.2,
+   "acc": 44.94999945163727
+  },
+  {
+   "cuts": 26,
+   "target": "blocks.4.attn_k",
+   "rho": 0.2,
+   "acc": 43.20000112056732
+  },
+  {
+   "cuts": 27,
+   "target": "blocks.4.attn_v",
+   "rho": 0.2,
+   "acc": 36.7000013589859
+  },
+  {
+   "cuts": 28,
+   "target": "blocks.4.attn_out",
+   "rho": 0.2,
+   "acc": 36.250001192092896
+  },
+  {
+   "cuts": 29,
+   "target": "blocks.4.mlp_in",
+   "rho": 0.2,
+   "acc": 18.250000476837158
+  },
+  {
+   "cuts": 30,
+   "target": "blocks.4.mlp_out",
+   "rho": 0.2,
+   "acc": 18.449999392032623
+  },
+  {
+   "cuts": 31,
+   "target": "blocks.5.attn_q",
+   "rho": 0.2,
+   "acc": 17.84999966621399
+  },
+  {
+   "cuts": 32,
+   "target": "blocks.5.attn_k",
+   "rho": 0.2,
+   "acc": 17.84999966621399
+  },
+  {
+   "cuts": 33,
+   "target": "blocks.5.attn_v",
+   "rho": 0.2,
+   "acc": 13.79999965429306
+  },
+  {
+   "cuts": 34,
+   "target": "blocks.5.attn_out",
+   "rho": 0.2,
+   "acc": 14.900000393390656
+  },
+  {
+   "cuts": 35,
+   "target": "blocks.5.mlp_in",
+   "rho": 0.2,
+   "acc": 9.950000047683716
+  },
+  {
+   "cuts": 36,
+   "target": "blocks.5.mlp_out",
+   "rho": 0.2,
+   "acc": 8.20000022649765
+  },
+  {
+   "cuts": 37,
+   "target": "blocks.6.attn_q",
+   "rho": 0.2,
+   "acc": 7.800000160932541
+  },
+  {
+   "cuts": 38,
+   "target": "blocks.6.attn_k",
+   "rho": 0.2,
+   "acc": 7.9499997198581696
+  },
+  {
+   "cuts": 39,
+   "target": "blocks.6.attn_v",
+   "rho": 0.2,
+   "acc": 6.89999982714653
+  },
+  {
+   "cuts": 40,
+   "target": "blocks.6.attn_out",
+   "rho": 0.2,
+   "acc": 4.600000008940697
+  },
+  {
+   "cuts": 41,
+   "target": "blocks.6.mlp_in",
+   "rho": 0.2,
+   "acc": 2.7000000700354576
+  },
+  {
+   "cuts": 42,
+   "target": "blocks.6.mlp_out",
+   "rho": 0.2,
+   "acc": 2.549999952316284
+  },
+  {
+   "cuts": 43,
+   "target": "blocks.7.attn_q",
+   "rho": 0.2,
+   "acc": 2.4000000208616257
+  },
+  {
+   "cuts": 44,
+   "target": "blocks.7.attn_k",
+   "rho": 0.2,
+   "acc": 2.0999999716877937
+  },
+  {
+   "cuts": 45,
+   "target": "blocks.7.attn_v",
+   "rho": 0.2,
+   "acc": 1.7000000923871994
+  },
+  {
+   "cuts": 46,
+   "target": "blocks.7.attn_out",
+   "rho": 0.2,
+   "acc": 1.850000023841858
+  },
+  {
+   "cuts": 47,
+   "target": "blocks.7.mlp_in",
+   "rho": 0.2,
+   "acc": 1.0999999940395355
+  },
+  {
+   "cuts": 48,
+   "target": "blocks.7.mlp_out",
+   "rho": 0.2,
+   "acc": 1.2000000104308128
+  },
+  {
+   "cuts": 49,
+   "target": "blocks.8.attn_q",
+   "rho": 0.2,
+   "acc": 1.1500000022351742
+  },
+  {
+   "cuts": 50,
+   "target": "blocks.8.attn_k",
+   "rho": 0.2,
+   "acc": 0.8999999612569809
+  },
+  {
+   "cuts": 51,
+   "target": "blocks.8.attn_v",
+   "rho": 0.2,
+   "acc": 0.9999999776482582
+  },
+  {
+   "cuts": 52,
+   "target": "blocks.8.attn_out",
+   "rho": 0.2,
+   "acc": 0.8500000461935997
+  },
+  {
+   "cuts": 53,
+   "target": "blocks.8.mlp_in",
+   "rho": 0.2,
+   "acc": 0.6000000052154064
+  },
+  {
+   "cuts": 54,
+   "target": "blocks.8.mlp_out",
+   "rho": 0.2,
+   "acc": 0.6000000052154064
+  },
+  {
+   "cuts": 55,
+   "target": "blocks.9.attn_q",
+   "rho": 0.2,
+   "acc": 0.4999999888241291
+  },
+  {
+   "cuts": 56,
+   "target": "blocks.9.attn_k",
+   "rho": 0.2,
+   "acc": 0.4999999888241291
+  },
+  {
+   "cuts": 57,
+   "target": "blocks.9.attn_v",
+   "rho": 0.2,
+   "acc": 0.4999999888241291
+  },
+  {
+   "cuts": 58,
+   "target": "blocks.9.attn_out",
+   "rho": 0.2,
+   "acc": 0.4000000189989805
+  },
+  {
+   "cuts": 59,
+   "target": "blocks.9.mlp_in",
+   "rho": 0.2,
+   "acc": 0.20000000949949026
+  },
+  {
+   "cuts": 60,
+   "target": "blocks.9.mlp_out",
+   "rho": 0.2,
+   "acc": 0.4000000189989805
+  },
+  {
+   "cuts": 61,
+   "target": "blocks.10.attn_q",
+   "rho": 0.2,
+   "acc": 0.35000001080334187
+  },
+  {
+   "cuts": 62,
+   "target": "blocks.10.attn_k",
+   "rho": 0.2,
+   "acc": 0.35000001080334187
+  },
+  {
+   "cuts": 63,
+   "target": "blocks.10.attn_v",
+   "rho": 0.2,
+   "acc": 0.35000001080334187
+  },
+  {
+   "cuts": 64,
+   "target": "blocks.10.attn_out",
+   "rho": 0.2,
+   "acc": 0.24999999441206455
+  },
+  {
+   "cuts": 65,
+   "target": "blocks.10.mlp_in",
+   "rho": 0.2,
+   "acc": 0.35000001080334187
+  },
+  {
+   "cuts": 66,
+   "target": "blocks.10.mlp_out",
+   "rho": 0.2,
+   "acc": 0.20000000949949026
+  },
+  {
+   "cuts": 67,
+   "target": "blocks.11.attn_q",
+   "rho": 0.2,
+   "acc": 0.20000000949949026
+  },
+  {
+   "cuts": 68,
+   "target": "blocks.11.attn_k",
+   "rho": 0.2,
+   "acc": 0.20000000949949026
+  },
+  {
+   "cuts": 69,
+   "target": "blocks.11.attn_v",
+   "rho": 0.2,
+   "acc": 0.1500000013038516
+  },
+  {
+   "cuts": 70,
+   "target": "blocks.11.attn_out",
+   "rho": 0.2,
+   "acc": 0.10000000474974513
+  },
+  {
+   "cuts": 71,
+   "target": "blocks.11.mlp_in",
+   "rho": 0.2,
+   "acc": 0.20000000949949026
+  },
+  {
+   "cuts": 72,
+   "target": "blocks.11.mlp_out",
+   "rho": 0.2,
+   "acc": 0.1500000013038516
+  }
+ ],
+ "report_acc": 0.20000000949949026,
+ "report_baseline_acc": 84.64999794960022
+}

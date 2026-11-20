@@ -1,0 +1,832 @@
+edit: layers.23.mlp_in rho 0.05
+Loading weights:   0%|          | 0/292 [00:00<?, ?it/s]Loading weights: 100%|██████████| 292/292 [00:00<00:00, 10449.88it/s]
+report half: acc 10.08 -> 18.98
+Pile counts: 0 cached, 7961 to fetch
+  200/7961
+count failed: Alexandre Astruc AND France HTTP Error 403: Forbidden
+count failed: Alexandre de Beauharnais AND Paris HTTP Error 403: Forbidden
+count failed: Alfa Romeo 164 AND Fiat HTTP Error 403: Forbidden
+count failed: Alfa Romeo 75 AND Fiat HTTP Error 403: Forbidden
+count failed: Alfa Romeo SZ AND Fiat HTTP Error 403: Forbidden
+count failed: Alfred Flechtheim AND Berlin HTTP Error 403: Forbidden
+count failed: Alfred Adler AND Vienna HTTP Error 403: Forbidden
+count failed: Alfred Gusenbauer AND Austria HTTP Error 403: Forbidden
+count failed: Alfred Hickman AND actor HTTP Error 403: Forbidden
+count failed: Alfred L. Kroeber AND anthropology HTTP Error 403: Forbidden
+count failed: Alfred Marshall AND economics HTTP Error 403: Forbidden
+count failed: Alfred Savoir AND French HTTP Error 403: Forbidden
+count failed: Alfred Sutro AND English HTTP Error 403: Forbidden
+count failed: Alfred Weber AND sociology HTTP Error 403: Forbidden
+count failed: Alfred Werner AND Switzerland HTTP Error 403: Forbidden
+count failed: Algiers AND London HTTP Error 403: Forbidden
+count failed:count failed: Ali Hujwiri AND Islam  Ali Khamenei AND Islam HTTP Error 403: Forbidden
+HTTP Error 403: Forbidden
+count failed: Ali-Akbar Shahnazi AND Tehran HTTP Error 403: Forbidden
+count failed: Alicante AND Nice HTTP Error 403: Forbidden
+count failed: Alicante AND Spanish HTTP Error 403: Forbidden
+count failed: Alicia de Larrocha AND piano HTTP Error 403: Forbidden
+count failed: Alida Withoos AND Amsterdam HTTP Error 403: Forbidden
+count failed: Alinta Energy AND Sydney HTTP Error 403: Forbidden
+count failed: Alix Perez AND Belgium count failed: All About She AND London HTTP Error 403: Forbidden
+HTTP Error 403: Forbidden
+count failed: All Hail King Julien AND Netflix HTTP Error 403: Forbidden
+count failed: Alla Pavlova AND Ukraine HTTP Error 403: Forbidden
+count failed: Allan Kardec AND French HTTP Error 403: Forbidden
+count failed: Allan Sandage AND astronomy HTTP Error 403: Forbidden
+count failed: Allan Warren AND English HTTP Error 403: Forbidden
+count failed: Alle Farben AND Berlin HTTP Error 403: Forbidden
+count failed:count failed: Allied-occupied Germany AND Berlin  Allen Iverson AND basketball HTTP Error 403: Forbidden
+HTTP Error 403: Forbidden
+count failed:count failed: Allen & Overy AND London  HTTP Error 403: ForbiddenAllersberg AND Germany 
+HTTP Error 403: Forbidden
+count failed: Allison Nelson AND Atlanta HTTP Error 403: Forbidden
+count failed: Almoravid dynasty AND Islam HTTP Error 403: Forbidden
+count failed: Alonzo Babers AND Montgomery HTTP Error 403: Forbidden
+count failed: Alois Riegl AND Vienna HTTP Error 403: Forbidden
+count failed: Alphonse Pyramus de Candolle AND Geneva count failed: Alphonse James de Rothschild AND Paris HTTP Error 403: Forbidden
+HTTP Error 403: Forbidden
+count failed:count failed: Alphonse Pyramus de Candolle AND French  Aloys and Alfons Kontarsky AND piano HTTP Error 403: Forbidden
+HTTP Error 403: Forbidden
+count failed: Alphonsus Liguori Penney AND bishop HTTP Error 403: Forbidden
+count failed: Alpine A106 AND Renault HTTP Error 403: Forbidden
+count failed: Alpokalja AND Hungary HTTP Error 403: Forbidden
+count failed: Alsace-Lorraine AND Europe HTTP Error 403: Forbidden
+count failed: Alternatywy 4 AND Poland count failed: Altai Krai AND Russian HTTP Error 403: Forbidden
+count failed:HTTP Error 403: Forbidden 
+Alternative Nation AND MTV count failed: Alta Vendita AND Italian HTTP Error 403: Forbidden
+HTTP Error 403: Forbidden
+count failed: Althea Garrison AND Boston HTTP Error 403: Forbidden
+count failed: Altin Lala AND midfielder HTTP Error 403: Forbidden
+count failed: Alvin and the Chipmunks AND NBC HTTP Error 403: Forbidden
+count failed: Alvino Rey AND jazz HTTP Error 403: Forbidden
+count failed:count failed: Amazon Music AND Amazon  Alī ibn Abī Ṭālib AND Islam count failed:HTTP Error 403: Forbidden
+ HTTP Error 403: ForbiddenAmazon Silk AND Amazon
+ HTTP Error 403: Forbidden
+count failed:count failed: count failed:count failed: Amal Nasser el-Din AND Hebrew   Amazing Nurse Nanako AND JapanAmalgamated Wireless AND SydneyAmar en tiempos revueltos AND Spanish  HTTP Error 403: Forbidden
+HTTP Error 403: ForbiddenHTTP Error 403: Forbidden 
+
+HTTP Error 403: Forbidden
+count failed: Amazon Web Services AND Amazon HTTP Error 403: Forbidden
+count failed: American Dreams AND NBC HTTP Error 403: Forbidden
+count failed: count failed:Ambrose Bury AND Canada HTTP Error 403: Forbidden
+ America's Best Dance Crew AND MTV HTTP Error 403: Forbidden
+count failed: Amelia Fletcher AND guitar HTTP Error 403: Forbidden
+count failed: American Bar Association AND Chicago HTTP Error 403: Forbidden
+count failed: Ambatofinandrahana District AND Madagascar HTTP Error 403: Forbidden
+count failed: American Experience AND PBS HTTP Error 403: Forbidden
+count failed: Amber Gurung AND composer HTTP Error 403: Forbidden
+count failed:count failed: Amman AND Moscow count failed:  American Pickers AND History Amiel Daemion AND Festival count failed: American Morning AND CNN count failed: Amici Forever AND opera HTTP Error 403: ForbiddenHTTP Error 403: Forbidden
+HTTP Error 403: Forbidden
+HTTP Error 403: ForbiddenHTTP Error 403: Forbidden
+
+
+count failed: Amina Wadud AND Islam HTTP Error 403: Forbidden
+count failed: Amiibo AND Nintendo HTTP Error 403: Forbidden
+count failed: Amiata Records AND Florence HTTP Error 403: Forbidden
+count failed:count failed:  count failed:Anacharsis Cloots AND French Amsterdam AND Istanbul Amund Maarud AND guitar  HTTP Error 403: Forbiddencount failed:HTTP Error 403: ForbiddenHTTP Error 403: Forbidden 
+Amreli district AND Gujarat
+
+ HTTP Error 403: Forbidden
+count failed: count failed:Amman AND Tokyo Anand Gandhi AND Mumbai  HTTP Error 403: Forbidden
+HTTP Error 403: Forbidden
+count failed: An Iceland Fisherman AND French HTTP Error 403: Forbidden
+count failed: An Early Frost AND NBC HTTP Error 403: Forbidden
+count failed: Anand Math AND Hindi HTTP Error 403: Forbidden
+count failed:count failed: Anare Mountains AND Antarctica  Anata e AND Japan HTTP Error 403: Forbidden
+HTTP Error 403: Forbidden
+count failed: Anarchy Club AND Boston HTTP Error 403: Forbidden
+count failed: Ananda Krishnan AND Buddhism HTTP Error 403: Forbidden
+  400/7961
+count failed: Arve Henriksen AND trumpet HTTP Error 403: Forbidden
+  600/7961
+count failed:count failed: Audio Fidelity AND jazz  count failed:Audrey Fleurot AND Francecount failed:HTTP Error 403: Forbidden 
+count failed:   count failed:count failed:Audrey Tautou AND FrenchAudio Interchange File Format AND Apple  Audio Video Interleave, version 1.0 AND Microsoft  HTTP Error 403: ForbiddenHTTP Error 403: ForbiddenHTTP Error 403: ForbiddenAudrey Wise AND politician  August Gailit AND EstoniaHTTP Error 403: Forbidden
+
+
+
+HTTP Error 403: Forbidden 
+HTTP Error 403: Forbidden
+count failed: Audioweb AND Manchester HTTP Error 403: Forbidden
+count failed: August Weismann AND biology HTTP Error 403: Forbidden
+count failed:count failed:count failed: count failed: count failed:count failed:  August Kundt AND physics  August Krogh AND physiologyHTTP Error 403: ForbiddenAugust von Pelzeln AND PragueAuguste Chevalier AND French 
+   HTTP Error 403: ForbiddenAugusta Raurica AND SwitzerlandHTTP Error 403: ForbiddenAugust Wilhelm Iffland AND BerlinHTTP Error 403: Forbidden 
+
+HTTP Error 403: Forbidden
+ 
+HTTP Error 403: Forbidden
+count failed: Auguste Forel AND Switzerland HTTP Error 403: Forbidden
+count failed:count failed: Auguste Rodin AND France  HTTP Error 403: Forbidden
+Aung San Suu Kyi AND Buddhism HTTP Error 403: Forbidden
+count failed:count failed: Aurangzeb AND Islam  Augusto Boal AND politician HTTP Error 403: Forbidden
+HTTP Error 403: Forbidden
+count failed:count failed: Aurora de Chile AND Chilecount failed: Augustine of Hippo AND bishop   HTTP Error 403: ForbiddenHTTP Error 403: Forbidden
+Aukai Collins AND Islam
+ HTTP Error 403: Forbidden
+count failed: Aunty Disco Project AND Karachi HTTP Error 403: Forbidden
+count failed: Austin Currie AND Ireland HTTP Error 403: Forbidden
+count failed: Australian Geographic AND Australia HTTP Error 403: Forbidden
+count failed: count failed:count failed:count failed:count failed:count failed:Autonomous Province of Kosovo and Metohija AND Serbian    Austria AND Europe Austen Henry Layard AND LondonAutobianchi A112 AND Fiat HTTP Error 403: Forbidden
+HTTP Error 403: Forbidden  Austrian Empire AND Vienna 
+Austkampane Hills AND AntarcticaHTTP Error 403: ForbiddenHTTP Error 403: Forbidden 
+HTTP Error 403: Forbidden
+ 
+HTTP Error 403: Forbidden
+count failed:count failed: Aval Oru Thodar Kathai AND Tamil Aviation Industry Corporation of China AND Beijing  count failed: HTTP Error 403: Forbidden
+Average Joe AND NBCHTTP Error 403: Forbidden 
+HTTP Error 403: Forbidden
+count failed: Avery Plateau AND Antarctica HTTP Error 403: Forbidden
+count failed:count failed: count failed:count failed:  Avenue Montaigne AND FranceAutonomous Republic of Crimea AND Russian Avi Wigderson AND mathematician  HTTP Error 403: ForbiddenHTTP Error 403: Forbidden 
+
+Averroes AND IslamHTTP Error 403: Forbidden
+ HTTP Error 403: Forbidden
+count failed:count failed: count failed: Avram Iancu AND Romanian  count failed:count failed: Avie Bennett AND Torontocount failed:  Avraham Harman AND Jerusalem HTTP Error 403: ForbiddenAvni Mula AND opera 
+HTTP Error 403: ForbiddenHTTP Error 403: ForbiddenAvni Rustemi AND Albania Axel Honneth AND Frankfurtcount failed:
+
+HTTP Error 403: Forbidden  
+ HTTP Error 403: ForbiddenAviator Glacier AND AntarcticaHTTP Error 403: Forbidden
+ 
+HTTP Error 403: Forbidden
+count failed: Ayn Rand Institute AND Irvine HTTP Error 403: Forbidden
+count failed: BBC Alba AND BBC HTTP Error 403: Forbidden
+count failed: B-47 Stratojet AND Boeing HTTP Error 403: Forbidden
+count failed:count failed:count failed: B-29 Superfortress AND Boeing HTTP Error 403: Forbidden
+  B. Nagi Reddy AND ChennaiBBC Domesday Reloaded AND BBC HTTP Error 403: Forbidden
+ count failed:HTTP Error 403: Forbidden
+ Azis AND Bulgaria HTTP Error 403: Forbidden
+count failed: Azienda Trasporti Milanesi AND Milan HTTP Error 403: Forbidden
+count failed: Ayria AND Toronto HTTP Error 403: Forbidden
+count failed: BBC iPlayer AND BBC HTTP Error 403: Forbidden
+count failed:count failed:  BC Apollo AND Amsterdam BBeB AND Sony HTTP Error 403: ForbiddenHTTP Error 403: Forbidden
+
+count failed:count failed: count failed:BBC Radio 4 AND BBC  BMC Software AND Houston count failed: BBC Parliament AND BBC  BBC Worldwide AND BBCHTTP Error 403: Forbidden
+ HTTP Error 403: ForbiddenHTTP Error 403: ForbiddenHTTP Error 403: Forbidden
+
+
+count failed: BBC News Online AND BBC HTTP Error 403: Forbidden
+count failed: Bartholomeus Spranger AND Prague HTTP Error 403: Forbidden
+count failed: Battle of France AND Belgium HTTP Error 403: Forbidden
+count failed: Baywatch AND NBC HTTP Error 403: Forbidden
+count failed: Beck AND guitar HTTP Error 403: Forbidden
+count failed: Beaumont Palace AND Oxford HTTP Error 403: Forbidden
+count failed: Bedourie AND Australia HTTP Error 403: Forbidden
+count failed: Bedford Master AND Paris HTTP Error 403: Forbidden
+count failed: Bedworth AND England HTTP Error 403: Forbidden
+count failed: Bee Gees AND Manchester HTTP Error 403: Forbidden
+count failed: Beetham Organization AND Liverpool HTTP Error 403: Forbidden
+count failed: Beethoven Virus AND Korean HTTP Error 403: Forbidden
+count failed: Beijing AND Ankara HTTP Error 403: Forbidden
+count failed: Beg, Borrow & Deal AND ESPN HTTP Error 403: Forbidden
+count failed: Beijing AND Copenhagen HTTP Error 403: Forbidden
+count failed: Beijing AND London HTTP Error 403: Forbidden
+count failed: Beijing AND Moscow HTTP Error 403: Forbidden
+count failed: Beijing AND Tehran HTTP Error 403: Forbidden
+count failed: Beijing Capital International Airport AND Beijing HTTP Error 403: Forbidden
+count failed: Beijing College Student Film Festival AND Beijing HTTP Error 403: Forbidden
+count failed: Beirut AND Istanbul HTTP Error 403: Forbidden
+count failed: Beirut AND Cairo HTTP Error 403: Forbidden
+count failed: Belarus AND Russian HTTP Error 403: Forbidden
+count failed: Belgium AND Brussels HTTP Error 403: Forbidden
+count failed: Belgium AND French HTTP Error 403: Forbidden
+count failed: Belgium AND German HTTP Error 403: Forbidden
+count failed: Belgium AND NATO HTTP Error 403: Forbidden
+count failed: Belgrade AND Beijing HTTP Error 403: Forbidden
+count failed: Belize AND English count failed: Bell Labs AND Nokia HTTP Error 403: Forbidden
+HTTP Error 403: Forbidden
+count failed: Belgrade AND Chicago HTTP Error 403: Forbidden
+count failed: Bella Notte AND Italian HTTP Error 403: Forbidden
+count failed: Belle du Seigneur AND Switzerland HTTP Error 403: Forbidden
+  800/7961
+count failed:count failed:count failed:count failed:count failed: count failed:  Ben Myers AND English  Bellingshausen Sea AND Antarctica Benedetto Croce AND ItalianBendik Hofseth AND jazz count failed: HTTP Error 403: Forbidden Benedict XVI AND cardinalBenedetto Marcello AND opera   HTTP Error 403: ForbiddenHTTP Error 403: Forbidden
+ 
+Ben Stephenson AND BBCHTTP Error 403: ForbiddenHTTP Error 403: Forbidden
+HTTP Error 403: Forbidden 
+
+HTTP Error 403: Forbidden
+
+count failed: Ben Bennett AND quarterback HTTP Error 403: Forbidden
+count failed:count failed:count failed: Benjamin Britten AND London count failed: Benito Perojo AND Madrid   HTTP Error 403: ForbiddenHTTP Error 403: Forbiddencount failed:
+
+Benelux AND Dutchcount failed:Benito Santiago AND catcher   Benson Point AND Antarctica Benjamin Constant AND French HTTP Error 403: Forbidden
+HTTP Error 403: ForbiddenHTTP Error 403: Forbidden 
+
+HTTP Error 403: Forbidden
+count failed: Bennie Moten AND piano HTTP Error 403: Forbidden
+count failed: Benson Glacier AND Antarctica HTTP Error 403: Forbidden
+count failed:count failed:count failed: count failed:count failed: Berenberg Bank AND Hamburg  count failed: Berea College AND Kentucky HTTP Error 403: Forbiddencount failed: 
+HTTP Error 403: ForbiddenBenzino AND BostonBenvenuto Rambaldi da Imola AND Latin  Bentley Turbo R AND Bentley
+ Bentley Continental AND BentleyBentley T-series AND Bentley HTTP Error 403: Forbidden  HTTP Error 403: ForbiddenHTTP Error 403: Forbidden
+
+
+ HTTP Error 403: ForbiddenHTTP Error 403: Forbidden
+
+count failed: Bentley Brooklands AND Bentley HTTP Error 403: Forbidden
+count failed:count failed: Berlin Tempelhof Airport AND Berlin  Berliner AK 07 AND Berlin HTTP Error 403: Forbidden
+HTTP Error 403: Forbidden
+count failed: Berliner Verkehrsbetriebe AND Berlin HTTP Error 403: Forbidden
+count failed:count failed:count failed: count failed: Bermuda AND EnglishBering Glacier AND Alaska   Berkovitsa Glacier AND AntarcticaHTTP Error 403: Forbidden
+ HTTP Error 403: Forbidden HTTP Error 403: ForbiddenBerhala Island, Sabah AND Malaysia 
+HTTP Error 403: Forbidden
+
+count failed: Berlin AND Budapest HTTP Error 403: Forbidden
+count failed: Bern AND Vienna HTTP Error 403: Forbidden
+count failed:count failed:count failed: count failed:Bernard Blancan AND Frenchcount failed:   Bern Minster AND Bern  Bernard Haitink AND Amsterdam  Bernard Menez AND FrenchBernard Griffin AND English HTTP Error 403: Forbidden
+HTTP Error 403: ForbiddenHTTP Error 403: ForbiddenHTTP Error 403: Forbidden 
+
+
+HTTP Error 403: Forbidden
+count failed: Bernard Lietaer AND Belgium HTTP Error 403: Forbidden
+count failed: Bernadette Lafont AND French HTTP Error 403: Forbidden
+count failed: Bernard Musson AND French count failed: Bernard Tissier de Mallerais AND bishop HTTP Error 403: ForbiddenHTTP Error 403: Forbidden
+
+count failed: Berne Convention for the Protection of Literary and Artistic Works AND Bern HTTP Error 403: Forbidden
+count failed: Bernese Jura AND French HTTP Error 403: Forbidden
+count failed: Bernese Oberland AND German HTTP Error 403: Forbidden
+count failed: Bernardo Salviati AND cardinal count failed: Bernardo Reyes AND Mexico HTTP Error 403: Forbidden
+HTTP Error 403: Forbidden
+count failed: Bernard Tapie AND French HTTP Error 403: Forbidden
+count failed: Bernhard Knipperdolling AND mayor HTTP Error 403: Forbidden
+count failed:count failed:count failed:count failed:   Bert Joris AND jazz Bert Joris AND trumpet Bertrand Russell AND EnglishHTTP Error 403: Forbidden  Bert Lown AND violinHTTP Error 403: Forbidden
+
+HTTP Error 403: Forbidden 
+HTTP Error 403: Forbidden
+count failed: count failed: Betsson AND Sweden Bertrand Tavernier AND French HTTP Error 403: ForbiddenHTTP Error 403: Forbidden
+
+count failed: Bertha Island AND Antarctica HTTP Error 403: Forbidden
+count failed:count failed: Bex AND French  Beyond Hatred AND French HTTP Error 403: Forbidden
+HTTP Error 403: Forbidden
+count failed: Bettie Serveert AND Netherlands HTTP Error 403: Forbidden
+count failed:count failed: Bettina Wiegmann AND midfielder count failed:  Beylerbeyi Palace AND IstanbulBeyblade: Metal Fusion AND Japan  HTTP Error 403: ForbiddenHTTP Error 403: Forbidden
+
+HTTP Error 403: Forbidden
+count failed: Bezimienni bohaterowie AND Poland HTTP Error 403: Forbidden
+count failed: Betsy Blair AND London HTTP Error 403: Forbidden
+count failed: Bianchi Bicycles AND Milan HTTP Error 403: Forbidden
+count failed: Biagio Marini AND composer HTTP Error 403: Forbidden
+count failed: Bicol Region AND Philippines HTTP Error 403: Forbidden
+count failed: Biel/Bienne AND French HTTP Error 403: Forbidden
+count failed: count failed: Bhinmal AND India count failed: Bianet AND Istanbul HTTP Error 403: Forbidden
+Bhamdoun AND LebanonHTTP Error 403: Forbidden 
+HTTP Error 403: Forbidden
+count failed: Biel/Bienne AND German HTTP Error 403: Forbidden
+count failed:count failed:count failed: Bighorn Basin AND Wyoming  count failed: Biff Baker, U.S.A. AND CBS HTTP Error 403: ForbiddenBigourdan Fjord AND Antarcticacount failed: Big Timothy Mountain AND Canada count failed:HTTP Error 403: ForbiddenBig Blue Marble AND PBS
+count failed:count failed:  
+ Bigo Bay AND Antarctica   HTTP Error 403: ForbiddenBig Monday AND ESPNHTTP Error 403: ForbiddenBiff Bang Pow! AND London  HTTP Error 403: ForbiddenHTTP Error 403: ForbiddenHTTP Error 403: Forbidden 
+
+
+HTTP Error 403: Forbidden
+
+
+count failed: Bill Anschell AND piano HTTP Error 403: Forbidden
+count failed:count failed:count failed:count failed:count failed:  count failed:Bilbao AND Spain  Bill Bradley AND basketball  Bill Anschell AND jazz Bilal ibn Ribah AND Mecca  Bill Bergey AND linebackerHTTP Error 403: ForbiddenHTTP Error 403: Forbidden
+
+ HTTP Error 403: Forbidden HTTP Error 403: ForbiddenHTTP Error 403: Forbidden
+Bill Hinds AND Houston
+ 
+HTTP Error 403: Forbidden
+count failed: Bill Gates AND Microsoft HTTP Error 403: Forbidden
+count failed:count failed: Birchall Peaks AND Antarctica  Billy Eckstine AND jazz HTTP Error 403: Forbidden
+HTTP Error 403: Forbidden
+count failed: Bill Kenney AND quarterback HTTP Error 403: Forbidden
+count failed:count failed: Bintulu Division AND Malaysia count failed:count failed: Binary Synchronous Communications AND IBM Billy Chow AND Canada Bimal Roy AND India HTTP Error 403: Forbidden
+  HTTP Error 403: ForbiddenHTTP Error 403: Forbidden
+HTTP Error 403: Forbidden
+
+count failed: Billy Bishop Toronto City Airport AND Toronto HTTP Error 403: Forbidden
+count failed: Bird Blobs AND Melbourne HTTP Error 403: Forbidden
+count failed:count failed:count failed: count failed:Birobidzhaner Shtern AND Russiancount failed:  Bishkek AND Ankara Birmingham City F.C. AND Birmingham Bizarre, Bizarre AND French   HTTP Error 403: ForbiddenHTTP Error 403: Forbidden Birmingham AND Frankfurt HTTP Error 403: Forbidden
+HTTP Error 403: ForbiddenHTTP Error 403: Forbidden
+
+
+
+count failed:count failed: Birendranagar AND Nepal  HTTP Error 403: ForbiddenBix Beiderbecke AND trumpet 
+HTTP Error 403: Forbidden
+count failed:count failed: Black God, White Devil AND Portuguesecount failed:  Black Pine Mountains AND Idaho count failed: HTTP Error 403: ForbiddenBlack Coast AND Antarctica HTTP Error 403: Forbidden
+ 
+count failed:HTTP Error 403: ForbiddenBlack Hawk War AND Illinois 
+ Black Narcissus AND EnglishHTTP Error 403: Forbidden HTTP Error 403: Forbidden
+
+count failed:count failed: Bjurholm AND Sweden count failed: Black Mark Productions AND Stockholm HTTP Error 403: Forbidden
+ HTTP Error 403: ForbiddenBlack Stone Cherry AND Edmonton
+ HTTP Error 403: Forbidden
+count failed:count failed: Blenders Pride AND India count failed:BlackGirl AND Atlanta  Blakfish AND Birmingham  HTTP Error 403: Forbidden
+HTTP Error 403: ForbiddenHTTP Error 403: Forbidden
+
+count failed: Blackadder AND sitcom HTTP Error 403: Forbidden
+count failed: Blaise of Sebaste AND bishop count failed: Blennerville AND Ireland HTTP Error 403: Forbidden
+HTTP Error 403: Forbidden
+count failed: Blaise Pascal AND French HTTP Error 403: Forbidden
+count failed: Blaine Lacher AND goaltender HTTP Error 403: Forbidden
+count failed: Bluebird Records AND jazz count failed: Bnei Brak AND Brooklyn HTTP Error 403: Forbidden
+HTTP Error 403: Forbidden
+count failed: Blogger AND Google HTTP Error 403: Forbidden
+count failed: Blue Heelers AND Australia HTTP Error 403: Forbidden
+count failed:count failed: Blindman AND Italy count failed: Blowup AND Italy HTTP Error 403: Forbidden
+ HTTP Error 403: ForbiddenBloodshot Records AND Chicago 
+HTTP Error 403: Forbidden
+count failed: Bo Jackson AND baseball HTTP Error 403: Forbidden
+count failed: Bob Gaudio AND piano HTTP Error 403: Forbidden
+count failed: Bo Lundgren AND Swedish HTTP Error 403: Forbidden
+count failed:count failed:count failed:count failed:    count failed:Bob Meusel AND outfielder Bob Ralston AND piano Bob Lemon AND pitcherBob Mason AND goaltender  HTTP Error 403: Forbidden HTTP Error 403: Forbidden
+
+HTTP Error 403: ForbiddenBob Allison AND outfielderHTTP Error 403: Forbidden
+ 
+HTTP Error 403: Forbidden
+count failed: Bob Gibson AND baseball HTTP Error 403: Forbidden
+count failed:count failed:count failed:   count failed:Bob the Builder AND BBCBob Shacochis AND novelist   Bob Wilber AND jazz Bobby Garrett AND quarterback HTTP Error 403: Forbidden
+HTTP Error 403: ForbiddenHTTP Error 403: ForbiddenHTTP Error 403: Forbidden
+
+
+count failed: Bob Rusch AND jazz HTTP Error 403: Forbidden
+count failed: Bob Servant AND sitcom HTTP Error 403: Forbidden
+count failed: Bobby Andrews AND actor count failed: Bob Rock AND Canada HTTP Error 403: Forbidden
+HTTP Error 403: Forbidden
+count failed: Boeing 747 Large Cargo Freighter AND Boeing HTTP Error 403: Forbidden
+count failed: count failed:Boeing Commercial Airplanes AND Boeingcount failed:count failed:count failed:count failed:   Bobby Hackett AND jazz Bobina AND trance Bogra Zilla School AND BangladeshHTTP Error 403: Forbidden
+ Bobby Troup AND jazz   HTTP Error 403: Forbidden 
+HTTP Error 403: ForbiddenHTTP Error 403: ForbiddenBoeing Defense, Space & Security AND Boeing
+HTTP Error 403: Forbidden
+
+ HTTP Error 403: Forbidden
+count failed: Bodega Band AND jazz HTTP Error 403: Forbidden
+count failed: Bombing of Darwin AND Darwin HTTP Error 403: Forbidden
+count failed:count failed: Boniface I AND Rome count failed: Bolivia AND Spanish HTTP Error 403: Forbidden
+HTTP Error 403: Forbidden 
+Bonaire AND Dutch HTTP Error 403: Forbidden
+count failed:count failed:count failed:  Bolpur AND India Bohemia AND Prague HTTP Error 403: Forbidden
+count failed:HTTP Error 403: Forbidden  
+Bola Sete AND Fantasy HTTP Error 403: Forbidden
+Boney James AND jazz HTTP Error 403: Forbidden
+count failed: Boniface VIII AND pope HTTP Error 403: Forbidden
+count failed: Borchgrevink Glacier AND Antarctica HTTP Error 403: Forbidden
+count failed:count failed:count failed:count failed:count failed:  Book of Haggai AND Hebrew   HTTP Error 403: ForbiddenBoris Spassky AND FranceBoris Grigoriev AND Moscow
+Books of Chronicles AND Hebrew Boniface VIII AND Christianity   HTTP Error 403: Forbiddencount failed: HTTP Error 403: Forbidden
+ 
+HTTP Error 403: ForbiddenHTTP Error 403: ForbiddenBoris Shaposhnikov AND Russian
+
+ HTTP Error 403: Forbidden
+count failed: Boris Vian AND French count failed: Borovsky District AND Russia count failed: Borys Kolesnikov AND Ukraine HTTP Error 403: Forbidden
+HTTP Error 403: ForbiddenHTTP Error 403: Forbidden
+
+count failed: Bosnia and Herzegovina AND Europe HTTP Error 403: Forbidden
+count failed: Bornu Empire AND Islam HTTP Error 403: Forbidden
+count failed: Bosnia and Herzegovina AND Croatian count failed:HTTP Error 403: Forbidden
+ Boss Engira Bhaskaran AND Tamil HTTP Error 403: Forbidden
+count failed: Boroughmuir High School AND Edinburgh HTTP Error 403: Forbidden
+count failed: Boston AND Kyoto count failed: Boston Dynamics AND Google HTTP Error 403: ForbiddenHTTP Error 403: Forbidden
+
+count failed: Botad AND Gujarat HTTP Error 403: Forbidden
+count failed:count failed:count failed:count failed:count failed:    Boston Film Festival AND Boston Boston Navy Yard AND Boston HTTP Error 403: ForbiddenBoston Athletic Association AND Boston
+  HTTP Error 403: ForbiddenBoston Market AND GoldenHTTP Error 403: ForbiddenBoston Beer Company AND Boston
+
+  HTTP Error 403: ForbiddenHTTP Error 403: Forbidden
+
+count failed:count failed:count failed: Bowie Lam AND actor Bottle Rocket AND Spanish   count failed:count failed: HTTP Error 403: Forbidden Boukman Eksperyans AND HaitiBoucheron AND Paris  HTTP Error 403: Forbiddencount failed:HTTP Error 403: Forbidden
+
+HTTP Error 403: Forbidden
+ Boulton Paul Aircraft AND Norwichcount failed:
+Botswana AND English   HTTP Error 403: ForbiddenHTTP Error 403: ForbiddenBourg-la-Reine AND France 
+HTTP Error 403: Forbidden
+
+count failed: Botkyrka Municipality AND Swedish HTTP Error 403: Forbidden
+count failed:count failed: Boyd Raeburn AND jazz  Brad Delson AND guitar HTTP Error 403: Forbidden
+HTTP Error 403: Forbidden
+count failed:count failed:count failed:count failed:  Braden Looper AND pitcher  Boyzone AND Ireland  Boys Town Gang AND disco Brad Thiessen AND goaltender HTTP Error 403: Forbidden
+HTTP Error 403: ForbiddenHTTP Error 403: Forbidden
+
+HTTP Error 403: Forbidden
+count failed:count failed: Boys Over Flowers AND Japan HTTP Error 403: Forbidden
+ Brabant Island AND Antarctica HTTP Error 403: Forbidden
+  1000/7961
+count failed: Brand New Life AND NBC HTTP Error 403: Forbidden
+count failed:count failed:count failed:count failed:  Bratislava AND ViennaBradley Joseph AND piano    HTTP Error 403: ForbiddenBrahmagupta AND mathematics
+Bradford Cox AND guitarHTTP Error 403: Forbidden  
+HTTP Error 403: ForbiddenHTTP Error 403: Forbidden
+
+count failed:count failed: Brain Records AND Hamburg  Brandenburg-Prussia AND Berlin HTTP Error 403: Forbidden
+HTTP Error 403: Forbidden
+count failed: Brazos Wind Farm AND Texas HTTP Error 403: Forbidden
+count failed: Brett Hull AND hockey count failed: Brian Bosworth AND linebacker HTTP Error 403: Forbidden
+HTTP Error 403: Forbidden
+count failed: Brian Coleman AND councillor HTTP Error 403: Forbidden
+count failed:count failed: Brenda Asnicar AND Argentinacount failed:count failed:   Brian Hayward AND goaltender Brett Ralph AND RaymondHTTP Error 403: Forbidden HTTP Error 403: Forbiddencount failed:
+Brendan Behan AND Dublin 
+  HTTP Error 403: ForbiddenBrentford F.C. AND LondonHTTP Error 403: Forbidden
+ 
+HTTP Error 403: Forbidden
+count failed:count failed:count failed: count failed:Brian May AND guitar   Brian Maisonneuve AND midfieldercount failed:  Brice de Nice AND France  Brian Labone AND defenderBrian Mannix AND MelbourneHTTP Error 403: Forbidden HTTP Error 403: Forbidden
+HTTP Error 403: ForbiddenHTTP Error 403: Forbiddencount failed:
+ 
+
+HTTP Error 403: Forbidden
+ Brian Krzanich AND Intel HTTP Error 403: Forbidden
+count failed: Brian Steen Nielsen AND midfielder count failed: Brian Mulroney AND Ottawa HTTP Error 403: Forbidden
+HTTP Error 403: Forbidden
+count failed: Brihonnola AND Bangladesh HTTP Error 403: Forbidden
+count failed: Brisbane International Film Festival AND Brisbane HTTP Error 403: Forbidden
+count failed: Brighton Centre AND Brighton HTTP Error 403: Forbidden
+count failed:count failed:count failed:count failed:count failed:  Brissago AND ItalianBrigitte Fontaine AND French    Bristol & West AND BristolHTTP Error 403: ForbiddenBrigitte Bardot AND French  
+ HTTP Error 403: ForbiddenHTTP Error 403: ForbiddenBristol (Whitchurch) Airport AND BristolHTTP Error 403: Forbidden
+
+ 
+HTTP Error 403: Forbidden
+count failed:count failed:count failed: count failed:British America AND Londoncount failed: count failed:Bristol Aerospace AND Winnipeg British Columbia AND English  count failed:British Antarctic Territory AND English    HTTP Error 403: Forbidden HTTP Error 403: Forbidden HTTP Error 403: Forbidden
+Bristol Cathedral AND TrinityBrittany AND BrittanyHTTP Error 403: ForbiddenBritney Spears AND singing
+
+  HTTP Error 403: Forbidden
+HTTP Error 403: Forbidden 
+
+HTTP Error 403: Forbidden
+count failed: British Railways Board AND London HTTP Error 403: Forbidden
+count failed: Bronislovas Lubys AND Lithuania HTTP Error 403: Forbidden
+count failed: Brooklyn Film Festival AND Brooklyn HTTP Error 403: Forbidden
+count failed: count failed:count failed:Bronko Nagurski AND footballcount failed:count failed: count failed:  Brooklyn Island AND Antarctica  Broadway Open House AND NBCHTTP Error 403: Forbidden
+  Brno AND Vienna Bronwyn Mayer AND SydneyHTTP Error 403: ForbiddenHTTP Error 403: ForbiddenBroken Pencil AND Canada   HTTP Error 403: ForbiddenHTTP Error 403: Forbidden
+
+
+HTTP Error 403: Forbidden
+
+count failed:count failed: Brothers Past AND Philadelphia  Brugg AND German HTTP Error 403: Forbidden
+HTTP Error 403: Forbidden
+count failed:count failed:count failed:count failed: count failed:  Brunei AND English Brooks Sports AND SeattleBruce Gradkowski AND quarterback Brown, Shipley & Co. AND London HTTP Error 403: Forbidden
+   HTTP Error 403: ForbiddenHTTP Error 403: ForbiddenHTTP Error 403: ForbiddenBrown Company AND Berlin
+
+ 
+HTTP Error 403: Forbidden
+count failed: Bruce Plateau AND Antarctica HTTP Error 403: Forbidden
+count failed: Brut y Tywysogion AND Latin HTTP Error 403: Forbidden
+count failed:count failed:count failed: Bruno Putzulu AND France  Bruno Lawrence AND actor HTTP Error 403: Forbidden
+count failed:HTTP Error 403: Forbidden  
+Brussels-Capital Region AND DutchBryn Terfel AND opera  HTTP Error 403: ForbiddenHTTP Error 403: Forbidden
+
+count failed:count failed:count failed:  Brush Strokes AND sitcom HTTP Error 403: Forbidden
+ Bruno Tabacci AND ItalianBruno Kreisky AND Vienna  HTTP Error 403: Forbidden
+HTTP Error 403: Forbidden
+count failed: Bud Tribble AND Apple HTTP Error 403: Forbidden
+count failed: Buenaventura Durruti AND Madrid HTTP Error 403: Forbidden
+count failed: Buddy Holly AND Coral HTTP Error 403: Forbidden
+count failed: Bubba Smith AND football HTTP Error 403: Forbidden
+count failed:count failed: Buchan AND Australia  HTTP Error 403: Forbidden
+Bucharest AND Istanbul HTTP Error 403: Forbidden
+count failed: Bucharest AND Montreal HTTP Error 403: Forbidden
+count failed: Buchans AND Canada HTTP Error 403: Forbidden
+count failed: Bultaco AND Barcelona count failed: Buenos Aires AND MiamiHTTP Error 403: Forbidden 
+HTTP Error 403: Forbidden
+count failed: Bugis Junction AND Singapore HTTP Error 403: Forbidden
+count failed:count failed: Buenos Aires AND Prague  Bulgarian Wikipedia AND Bulgarian HTTP Error 403: Forbidden
+HTTP Error 403: Forbiddencount failed:
+ Bundesautobahn 1 AND Germany HTTP Error 403: Forbidden
+count failed: Bundesautobahn 111 AND Germany HTTP Error 403: Forbidden
+count failed: Bundesautobahn 3 AND Germany HTTP Error 403: Forbidden
+count failed: Bundesautobahn 63 AND Germany count failed: Bundesautobahn 4 AND Germany HTTP Error 403: ForbiddenHTTP Error 403: Forbiddencount failed:count failed:
+
+  Bundesautobahn 5 AND GermanyBundesautobahn 61 AND Germany  HTTP Error 403: ForbiddenHTTP Error 403: Forbidden
+
+count failed: Bundesautobahn 73 AND Germany HTTP Error 403: Forbidden
+count failed: Bundesautobahn 70 AND Germany HTTP Error 403: Forbidden
+count failed: Bundesautobahn 66 AND Germany HTTP Error 403: Forbidden
+count failed: Bundesautobahn 8 AND Germany HTTP Error 403: Forbidden
+count failed: Business Development Bank of Canada AND Montreal HTTP Error 403: Forbidden
+count failed:count failed:count failed: count failed:count failed:count failed: count failed:Burger King AND Miami  Bunky Green AND jazz Bundesautobahn 98 AND Germany HTTP Error 403: Forbidden Burundi AND Africa Burzum AND Norway  Bundesautobahn 99 AND Germany
+HTTP Error 403: ForbiddenHTTP Error 403: Forbidden  Burt Green Wilder AND Boston 
+
+HTTP Error 403: Forbidden HTTP Error 403: ForbiddenHTTP Error 403: Forbidden
+HTTP Error 403: Forbidden
+
+
+count failed: Bye Bye Brasil AND Portuguese HTTP Error 403: Forbidden
+count failed:count failed:  Buster Bailey AND jazzBuzzy Drootin AND jazzcount failed:count failed:count failed:count failed:  HTTP Error 403: Forbidden    count failed:HTTP Error 403: ForbiddenByrd Station AND Antarctica Byron Dafoe AND goaltender
+ HTTP Error 403: Forbidden
+ Byard Lancaster AND jazzByzantine Empire AND LatinByzantine & Christian Museum AND AthensHTTP Error 403: Forbidden
+  HTTP Error 403: Forbidden
+
+ HTTP Error 403: ForbiddenHTTP Error 403: Forbidden
+
+count failed:count failed: CBS Storybreak AND CBS count failed: count failed:count failed: CBS Summer Playhouse AND CBS count failed:  CBS Evening News AND CBSHTTP Error 403: Forbidden count failed:
+CAMI Automotive AND Suzuki CBS Playhouse AND CBS Bzura AND PolandHTTP Error 403: Forbidden CBS Schoolbreak Special AND CBS  HTTP Error 403: Forbidden HTTP Error 403: ForbiddenHTTP Error 403: Forbidden
+
+HTTP Error 403: Forbidden
+
+HTTP Error 403: Forbidden
+
+count failed: C-135 Stratolifter AND Boeing HTTP Error 403: Forbidden
+count failed: CICS AND IBM HTTP Error 403: Forbidden
+count failed: CBS This Morning AND CBS count failed: CD Eldense AND Spain HTTP Error 403: Forbidden
+HTTP Error 403: Forbidden
+count failed:count failed:count failed:count failed:count failed:  Cabiria AND Italy  CNN Presents AND CNN CTV Television Network AND Toronto CFL on CBC AND Canada HTTP Error 403: ForbiddenHTTP Error 403: Forbidden
+ HTTP Error 403: Forbidden
+ CSR Limited AND Sydney
+ HTTP Error 403: ForbiddenHTTP Error 403: Forbidden
+
+count failed:count failed: Cadenazzo AND Italian  Cable & Wireless Communications AND London HTTP Error 403: ForbiddenHTTP Error 403: Forbidden
+
+count failed:count failed:  Cadillac Fleetwood Brougham AND Cadillac HTTP Error 403: Forbidden
+Cadillac Northstar LMP AND Cadillac HTTP Error 403: Forbidden
+count failed:count failed:count failed: count failed:  Cadillac DTS AND Cadillac HTTP Error 403: Forbidden
+Cadgwith AND CornwallCadillac ATS AND Cadillac   HTTP Error 403: ForbiddenCadillac V-12 AND Cadillac HTTP Error 403: Forbidden
+HTTP Error 403: Forbidden
+
+count failed: Captain Aayush AND Avengers HTTP Error 403: Forbidden
+count failed: Captain Nice AND NBC HTTP Error 403: Forbidden
+count failed: Caracas AND Madrid HTTP Error 403: Forbidden
+count failed: Cardiff University AND Cardiff HTTP Error 403: Forbidden
+count failed: Carey Price AND goaltender HTTP Error 403: Forbidden
+count failed: Cari Lekebusch AND Stockholm HTTP Error 403: Forbidden
+count failed: Caribbean Netherlands AND Dutch HTTP Error 403: Forbidden
+count failed: Carl Bildt AND Swedish HTTP Error 403: Forbidden
+count failed: Carl Czerny AND piano HTTP Error 403: Forbidden
+  1200/7961
+count failed: Christian Bohr AND Copenhagen HTTP Error 403: Forbidden
+  1400/7961
+count failed: Christian Ganczarski AND Islam HTTP Error 403: Forbidden
+count failed:count failed: Christian Democrats AND Finland Christian Millau AND Frenchcount failed:  count failed: Christian Ude AND Munich  HTTP Error 403: ForbiddenHTTP Error 403: ForbiddenHTTP Error 403: Forbidden
+
+Christian Medical College Ludhiana AND India
+ HTTP Error 403: Forbidden
+count failed: Christina Rossetti AND London HTTP Error 403: Forbidden
+count failed: Christie Pits AND Ontario HTTP Error 403: Forbidden
+count failed: Christian Friedrich Hebbel AND Germany HTTP Error 403: Forbidden
+count failed: Christine Boisson AND French HTTP Error 403: Forbidden
+count failed:count failed:count failed:count failed:  count failed: Christophe Barratier AND French   HTTP Error 403: ForbiddenChristine Angot AND FrenchChristophe Moreau AND French Christoph Wilhelm Hufeland AND medicine  Christoph Willibald von Gluck AND ViennaHTTP Error 403: Forbidden
+ HTTP Error 403: Forbidden
+HTTP Error 403: ForbiddenHTTP Error 403: Forbidden
+
+
+count failed: Christopher Logue AND English count failed: Christopher Lambert AND French HTTP Error 403: Forbidden
+HTTP Error 403: Forbidden
+count failed: Chrisye AND Indonesian count failed: Chrysler 200 AND Chrysler HTTP Error 403: Forbidden
+HTTP Error 403: Forbidden
+count failed:count failed:count failed:count failed:    count failed:Christopher Paolini AND fantasyChuck D AND Islam   Chukchansi Park AND FresnoChristopher Martin-Jenkins AND BBCChuck Schuldiner AND DeathHTTP Error 403: ForbiddenHTTP Error 403: Forbidden
+ 
+  HTTP Error 403: ForbiddenHTTP Error 403: ForbiddenHTTP Error 403: Forbidden
+
+
+count failed: Chuck Fusina AND quarterback HTTP Error 403: Forbidden
+count failed: Church Hill Tunnel AND Virginia HTTP Error 403: Forbidden
+count failed: Chuvash Republic AND Russian HTTP Error 403: Forbidden
+count failed: Church of Greece AND Greek HTTP Error 403: Forbidden
+count failed: Chupke Chupke AND Hindi HTTP Error 403: Forbidden
+count failed:count failed:count failed: Chula Chakrabongse AND Thailand  HTTP Error 403: Forbidden
+Churchill Peninsula AND Antarctica  Church of the Holy Sepulchre AND Christianity HTTP Error 403: Forbidden
+HTTP Error 403: Forbidden
+count failed: Cid Corman AND English HTTP Error 403: Forbidden
+count failed: Cihan News Agency AND Turkish HTTP Error 403: Forbidden
+count failed: Cincinnati AND Munich HTTP Error 403: Forbidden
+count failed: Ciompi Revolt AND Florence HTTP Error 403: Forbidden
+count failed: Circa Survive AND Philadelphia HTTP Error 403: Forbidden
+count failed: Cinema Center Films AND CBS HTTP Error 403: Forbidden
+count failed: Cinemax AND HBO HTTP Error 403: Forbidden
+count failed: Circuito da Boavista AND Portugal HTTP Error 403: Forbidden
+count failed: Circus Boy AND NBC HTTP Error 403: Forbidden
+count failed: City of Hervey Bay AND Queensland HTTP Error 403: Forbidden
+count failed: City of Boroondara AND Melbourne HTTP Error 403: Forbidden
+count failed:count failed: City of Melbourne AND Melbourne  Clancy Cooper AND actor HTTP Error 403: Forbidden
+HTTP Error 403: Forbidden
+count failed: Clang AND Microsoft HTTP Error 403: Forbidden
+count failed: Clang AND Apple HTTP Error 403: Forbidden
+count failed: City of Cranbourne AND Australia HTTP Error 403: Forbidden
+count failed: Clara Haskil AND piano HTTP Error 403: Forbidden
+count failed:count failed: Claude Bernard AND physiology  Clarence Zener AND physics count failed: Claude Bernard AND French HTTP Error 403: Forbidden
+HTTP Error 403: ForbiddenHTTP Error 403: Forbidden
+
+count failed: Claude Bernard AND Paris HTTP Error 403: Forbidden
+count failed:count failed: Claude Chappe AND French HTTP Error 403: Forbidden
+ Claude Bartolone AND French HTTP Error 403: Forbidden
+count failed: Clark Gable AND English HTTP Error 403: Forbidden
+count failed: Claude Delvincourt AND piano HTTP Error 403: Forbidden
+count failed: Claude Victor-Perrin, Duc de Belluno AND French HTTP Error 403: Forbidden
+count failed: count failed:count failed:count failed:Claude Fleury AND Pariscount failed:  Claude de Longwy de Givry AND bishop  Claude Henri de Rouvroy, comte de Saint-Simon AND French HTTP Error 403: Forbidden Claude Deppa AND jazz  
+HTTP Error 403: ForbiddenHTTP Error 403: ForbiddenHTTP Error 403: ForbiddenClaude Simon AND French
+
+ 
+HTTP Error 403: Forbidden
+count failed: Claude Louis Hector de Villars AND diplomat HTTP Error 403: Forbidden
+count failed: Claudio Reyna AND soccer HTTP Error 403: Forbidden
+count failed: Clement I AND Rome HTTP Error 403: Forbidden
+count failed:count failed: Clayton Kershaw AND baseball HTTP Error 403: Forbidden
+ Clement IX AND pope count failed:count failed:count failed:HTTP Error 403: Forbidden   Clement III AND Rome Clement II AND pope HTTP Error 403: Forbidden
+
+Claus Schenk Graf von Stauffenberg AND BerlinHTTP Error 403: Forbidden 
+count failed: HTTP Error 403: Forbidden
+Clearwater Formation AND Alberta HTTP Error 403: Forbidden
+count failed: Clement VI AND pope HTTP Error 403: Forbidden
+count failed:count failed: Clement XIV AND pope HTTP Error 403: Forbidden
+count failed: Clete Thomas AND outfielder HTTP Error 403: Forbidden
+ Clement XII AND Rome HTTP Error 403: Forbidden
+count failed: Clement XIV AND Rome HTTP Error 403: Forbidden
+count failed: Clement X AND pope HTTP Error 403: Forbidden
+count failed: Clement XII AND pope HTTP Error 403: Forbidden
+count failed: Clement VII AND pope HTTP Error 403: Forbidden
+count failed: Cleveland AND Cleveland HTTP Error 403: Forbidden
+count failed: Climax! AND CBS HTTP Error 403: Forbidden
+count failed:count failed: Clifford Curzon AND London count failed: Cleveland Burke Lakefront Airport AND Cleveland  Cleveland City Stars AND Cleveland HTTP Error 403: Forbidden
+HTTP Error 403: ForbiddenHTTP Error 403: Forbidden
+
+count failed:count failed: Cleveland Hopkins International Airport AND Cleveland HTTP Error 403: Forbidden
+ count failed:Cliff Morgan AND BBC HTTP Error 403: Forbidden
+ Cleveland Glacier AND Antarctica HTTP Error 403: Forbidden
+count failed: Clint Benedict AND goaltender HTTP Error 403: Forbidden
+count failed:count failed: Clipper Magazine Stadium AND Lancaster  Cloutierville AND Louisiana HTTP Error 403: ForbiddenHTTP Error 403: Forbiddencount failed:
+ count failed:
+count failed:Cmolas AND Poland  count failed: HTTP Error 403: ForbiddenCo-operative Commonwealth Federation (Ontario Section) AND Toronto Club Aurora AND Bolivia Clover Studio AND Japan
+HTTP Error 403: Forbidden  count failed:
+HTTP Error 403: ForbiddenHTTP Error 403: Forbidden
+ 
+Cloud Spanner AND Google HTTP Error 403: Forbidden
+count failed: Co-operatives UK AND Manchester HTTP Error 403: Forbidden
+count failed: CodePlex AND Microsoft HTTP Error 403: Forbidden
+count failed:count failed:count failed:count failed:  count failed: Coffin Break AND SeattleCoast Mountains AND AlaskaCognos AND IBM   HTTP Error 403: ForbiddenHTTP Error 403: Forbidden
+Cobblestone Records AND jazz  
+ Cock Sparrer AND London HTTP Error 403: ForbiddenHTTP Error 403: Forbidden
+
+HTTP Error 403: Forbidden
+count failed: Cobham Range AND Antarctica HTTP Error 403: Forbidden
+count failed: Cokie Roberts AND NPR HTTP Error 403: Forbidden
+count failed: Colette Darfeuil AND French count failed: College Football News AND Chicago HTTP Error 403: Forbidden
+HTTP Error 403: Forbiddencount failed:count failed:count failed:
+   Colin Kenny AND actorCold Comfort Farm AND satire Colleen Zenk Pinter AND actor HTTP Error 403: Forbidden
+HTTP Error 403: Forbidden 
+HTTP Error 403: Forbidden
+count failed: Coles Group AND Melbourne HTTP Error 403: Forbidden
+count failed: Cold Case AND CBS HTTP Error 403: Forbidden
+count failed: Collins Harbour AND Antarctica HTTP Error 403: Forbidden
+count failed: ColorSync AND Apple HTTP Error 403: Forbidden
+count failed:count failed:count failed:count failed:   Color TV-Game AND Nintendo count failed:Cologne Carnival AND Cologne  Colonial Brazil AND Salvador HTTP Error 403: Forbidden
+Cologny AND FrenchHTTP Error 403: ForbiddenHTTP Error 403: Forbidden  
+Colmar Freiherr von der Goltz AND Germany
+HTTP Error 403: Forbidden 
+HTTP Error 403: Forbidden
+count failed: Collonge-Bellerive AND French HTTP Error 403: Forbidden
+count failed: Colorado AND English HTTP Error 403: Forbidden
+count failed: Coluche AND French count failed: Coming Up Roses AND Welsh HTTP Error 403: Forbidden
+HTTP Error 403: Forbidden
+count failed:count failed: Combatant Clergy Association AND Tehran count failed: Comedy of Power AND French HTTP Error 403: Forbidden
+HTTP Error 403: Forbidden 
+Colorado River Indian Tribes AND California HTTP Error 403: Forbidden
+count failed: Columbo AND NBC HTTP Error 403: Forbidden
+count failed: Columbia Valley AND Canada HTTP Error 403: Forbidden
+count failed: Comintern AND Moscow HTTP Error 403: Forbidden
+count failed: Condorito AND Spanish HTTP Error 403: Forbidden
+count failed:count failed:count failed:  count failed:count failed: count failed:Communist Party of Indonesia AND Jakarta   Concrete Sox AND NottinghamComoros AND FrenchCompay Segundo AND guitarConchita Montenegro AND actor HTTP Error 403: ForbiddenHTTP Error 403: Forbidden   
+Condor Peninsula AND Antarctica HTTP Error 403: Forbidden
+HTTP Error 403: Forbidden HTTP Error 403: Forbidden
+HTTP Error 403: Forbidden
+
+
+count failed: Congo Free State AND Africa HTTP Error 403: Forbidden
+count failed:count failed:count failed:  Congo basin AND Africacount failed: Congress Poland AND Russian   HTTP Error 403: ForbiddenConnecticut Route 183 AND ConnecticutHTTP Error 403: Forbidden
+ Connor Halliday AND quarterback
+HTTP Error 403: Forbidden 
+HTTP Error 403: Forbidden
+count failed:count failed: Congress Poland AND Polish Conjunctions AND English HTTP Error 403: Forbidden
+ HTTP Error 403: Forbidden
+count failed: Connie Mack AND baseball HTTP Error 403: Forbidden
+count failed: Conny Plank AND Cologne HTTP Error 403: Forbidden
+count failed: Cook Islands Football Association AND FIFA HTTP Error 403: Forbidden
+count failed:count failed:count failed: Conrad Mountains AND Antarctica  Conon AND pope HTTP Error 403: Forbidden
+count failed:HTTP Error 403: Forbidden  
+Constantijn Huygens AND DutchConrad von Soest AND Dortmund HTTP Error 403: Forbidden
+ HTTP Error 403: Forbidden
+count failed: Conrad I of Germany AND Christianity HTTP Error 403: Forbidden
+count failed: Constantine the Great AND Christianity HTTP Error 403: Forbidden
+count failed: Cookley AND England HTTP Error 403: Forbidden
+count failed:count failed: Coolock AND Irelandcount failed: count failed:HTTP Error 403: Forbiddencount failed:count failed:  Corey Hirsch AND goaltender Coomera River AND Queensland  Copenhagen AND Oslo  HTTP Error 403: Forbidden
+
+Coralie Trinh Thi AND FrenchHTTP Error 403: Forbidden Cor Fuhler AND piano 
+HTTP Error 403: ForbiddenHTTP Error 403: Forbidden 
+
+HTTP Error 403: Forbidden
+count failed: Core 2 AND Intel HTTP Error 403: Forbidden
+count failed: Corey Moore AND linebacker HTTP Error 403: Forbidden
+count failed: Corinne Drewery AND Nottingham HTTP Error 403: Forbidden
+count failed: Cornelis van Haarlem AND portrait HTTP Error 403: Forbidden
+count failed:count failed:count failed:  Corinne Luchaire AND actor count failed: Corner Cliffs AND AntarcticaCornelis Tiele AND Dutch count failed:  Cornell Brown AND linebacker HTTP Error 403: Forbidden
+ HTTP Error 403: ForbiddenHTTP Error 403: ForbiddenHTTP Error 403: ForbiddenCornelius Jakhelln AND guitar
+
+ 
+HTTP Error 403: Forbidden
+count failed: Cornerhouse AND Manchester HTTP Error 403: Forbidden
+count failed: Cory Wade AND pitcher HTTP Error 403: Forbidden
+count failed:count failed:count failed:  Corrado Segre AND Italian  Corrado Bafile AND bishop Costa Rica AND Spanish HTTP Error 403: Forbidden
+count failed:HTTP Error 403: ForbiddenHTTP Error 403: Forbidden 
+
+Cosimo de' Medici AND Florence HTTP Error 403: Forbidden
+count failed:count failed:  Cosmic Voyage AND English Cosimo Bartoli AND FlorenceHTTP Error 403: Forbidden
+ HTTP Error 403: Forbidden
+count failed: Cosgrove Ice Shelf AND Antarctica HTTP Error 403: Forbidden
+count failed:count failed: count failed: Costa Rican Football Federation AND FIFA  County of Ribagorza AND Catalan Cosworth AND London HTTP Error 403: ForbiddenHTTP Error 403: Forbidden
+
+count failed:HTTP Error 403: Forbidden Count Basie AND jazz 
+HTTP Error 403: Forbidden
+count failed:count failed:count failed:count failed:   Couto Misto AND PortugueseCoup de Torchon AND French  Coulter Heights AND Antarctica HTTP Error 403: ForbiddenHTTP Error 403: Forbidden 
+HTTP Error 403: ForbiddenCostache Conachi AND Romanian
+
+ HTTP Error 403: Forbidden
+count failed:count failed:count failed:count failed:count failed:    Crac AND CanadaCraig Monroe AND outfielder  Craig Charles AND comedian  count failed: Crate & Barrel AND ChicagoCrash Investigation Unit AND AustraliaHTTP Error 403: Forbidden  HTTP Error 403: Forbidden
+HTTP Error 403: ForbiddenHTTP Error 403: ForbiddenHTTP Error 403: Forbidden
+Coventry AND Dresden
+
+
+ HTTP Error 403: Forbidden
+count failed: Craig Raine AND English count failed: Craig Breslow AND pitcher HTTP Error 403: Forbidden
+HTTP Error 403: Forbidden
+count failed: Crazy Eddie AND Brooklyn HTTP Error 403: Forbidden
+count failed:count failed:count failed:count failed:count failed: Cristina Peri Rossi AND novelist Crescenzio Sepe AND bishop  CreativeLive AND Seattle  Cristian Alexanda AND PerthHTTP Error 403: Forbidden  
+HTTP Error 403: Forbidden 
+Crime & Punishment AND NBCHTTP Error 403: Forbidden
+HTTP Error 403: Forbidden
+ HTTP Error 403: Forbidden
+count failed: Crazed Fruit AND Japan HTTP Error 403: Forbidden
+count failed: Crawford Composites AND Denver HTTP Error 403: Forbidden
+  1600/7961
+count failed: Csepel SC AND Budapest HTTP Error 403: Forbidden
+count failed:count failed:count failed:  Crystal Sound AND Antarctica Croatia AND Croatian  Croatian War of Independence AND Croatia HTTP Error 403: ForbiddenHTTP Error 403: Forbidden
+HTTP Error 403: Forbidden
+
+count failed:count failed: Crystal Renn AND Miami HTTP Error 403: Forbidden
+ Crossley Motors AND Manchester HTTP Error 403: Forbidden
+count failed: Cristoforo Madruzzo AND cardinal HTTP Error 403: Forbidden
+count failed: Crook, County Durham AND England HTTP Error 403: Forbidden
+count failed: Cuba libre AND Cuba HTTP Error 403: Forbidden
+count failed:count failed:count failed:count failed:count failed:count failed:count failed:     Cuban convertible peso AND CubaCulcha Candela AND BerlinCtesibius AND Alexandria  Cullen Finnerty AND quarterbackHTTP Error 403: ForbiddenCubagua AND VenezuelaCurtis Amy AND jazz
+      HTTP Error 403: ForbiddenCurnonsky AND Paris
+HTTP Error 403: ForbiddenHTTP Error 403: ForbiddenHTTP Error 403: Forbidden 
+HTTP Error 403: Forbidden
+HTTP Error 403: Forbidden
+
+
+count failed:count failed: Cyril Smith AND London  Cy Young AND baseball HTTP Error 403: Forbidden
+HTTP Error 403: Forbidden
+count failed: Cyber-shot AND Sony HTTP Error 403: Forbidden
+count failed:count failed:count failed:count failed:  count failed:   Cy Coleman AND jazzCypriot Cup AND CyprusCymande AND funkCurved Air AND London  HTTP Error 403: Forbidden
+Cyprus Football Association AND FIFAHTTP Error 403: Forbidden   
+HTTP Error 403: ForbiddenHTTP Error 403: ForbiddenHTTP Error 403: Forbidden
+
+
+count failed: Cyrus Chestnut AND jazz HTTP Error 403: Forbidden
+count failed:count failed:count failed:count failed: DJ Format AND Southampton  DC-9 AND Douglas  HTTP Error 403: ForbiddenHTTP Error 403: Forbidden
+
+ DFDS AND CopenhagenDC-3 AND Douglas  HTTP Error 403: Forbidden
+HTTP Error 403: Forbidden
+count failed: Czech Republic AND Czech HTTP Error 403: Forbidden
+count failed: D'elles AND French HTTP Error 403: Forbidden
+count failed: Céline Dion AND piano HTTP Error 403: Forbidden
+count failed:count failed: DJ Screw AND Houstoncount failed:  DV AND Sony count failed: DNB ASA AND Oslo count failed:HTTP Error 403: Forbidden
+HTTP Error 403: Forbidden HTTP Error 403: Forbidden 
+DVD AND SonyDPR Korea Football Association AND FIFA
+  HTTP Error 403: ForbiddenHTTP Error 403: Forbidden
+
+count failed: Da Capo Press AND Boston HTTP Error 403: Forbidden
+count failed: Dacia Duster AND Renault HTTP Error 403: Forbidden
+count failed: Daddio AND English HTTP Error 403: Forbidden
+count failed:count failed: Daeg Faerch AND actorcount failed:  HTTP Error 403: Forbidden
+count failed:Dagong Global Credit Rating AND Beijingcount failed:count failed:   Daddio AND NBCDaihatsu Sirion AND Toyota HTTP Error 403: Forbidden Daiki Arioka AND actor  
+HTTP Error 403: ForbiddenHTTP Error 403: ForbiddenHTTP Error 403: Forbidden 
+
+
+Daihatsu Boon AND Toyota HTTP Error 403: Forbidden
+count failed: Daily Planet AND Canada HTTP Error 403: Forbidden
+count failed: Daihatsu Charmant AND Toyota HTTP Error 403: Forbidden
+Traceback (most recent call last):
+  File "/Users/akago/Documents/scdl/laser-vision/scripts/llm_rare.py", line 141, in <module>
+    for q, c in zip(chunk, ex.map(count, chunk)):
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/akago/.local/share/uv/python/cpython-3.12.16-macos-aarch64-none/lib/python3.12/concurrent/futures/_base.py", line 619, in result_iterator
+    yield _result_or_cancel(fs.pop())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/akago/.local/share/uv/python/cpython-3.12.16-macos-aarch64-none/lib/python3.12/concurrent/futures/_base.py", line 317, in _result_or_cancel
+    return fut.result(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/akago/.local/share/uv/python/cpython-3.12.16-macos-aarch64-none/lib/python3.12/concurrent/futures/_base.py", line 451, in result
+    self._condition.wait(timeout)
+  File "/Users/akago/.local/share/uv/python/cpython-3.12.16-macos-aarch64-none/lib/python3.12/threading.py", line 355, in wait
+    waiter.acquire()
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/akago/Documents/scdl/laser-vision/scripts/llm_rare.py", line 140, in <module>
+    with ThreadPoolExecutor(a.workers) as ex:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/akago/.local/share/uv/python/cpython-3.12.16-macos-aarch64-none/lib/python3.12/concurrent/futures/_base.py", line 647, in __exit__
+    self.shutdown(wait=True)
+  File "/Users/akago/.local/share/uv/python/cpython-3.12.16-macos-aarch64-none/lib/python3.12/concurrent/futures/thread.py", line 239, in shutdown
+    t.join()
+  File "/Users/akago/.local/share/uv/python/cpython-3.12.16-macos-aarch64-none/lib/python3.12/threading.py", line 1149, in join
+    self._wait_for_tstate_lock()
+  File "/Users/akago/.local/share/uv/python/cpython-3.12.16-macos-aarch64-none/lib/python3.12/threading.py", line 1169, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+Exception ignored in: <module 'threading' from '/Users/akago/.local/share/uv/python/cpython-3.12.16-macos-aarch64-none/lib/python3.12/threading.py'>
+Traceback (most recent call last):
+  File "/Users/akago/.local/share/uv/python/cpython-3.12.16-macos-aarch64-none/lib/python3.12/threading.py", line 1594, in _shutdown
+    atexit_call()
+  File "/Users/akago/.local/share/uv/python/cpython-3.12.16-macos-aarch64-none/lib/python3.12/concurrent/futures/thread.py", line 31, in _python_exit
+    t.join()
+  File "/Users/akago/.local/share/uv/python/cpython-3.12.16-macos-aarch64-none/lib/python3.12/threading.py", line 1149, in join
+    self._wait_for_tstate_lock()
+  File "/Users/akago/.local/share/uv/python/cpython-3.12.16-macos-aarch64-none/lib/python3.12/threading.py", line 1169, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt: 
