@@ -1,0 +1,401 @@
+config,scale,tau,cls,train_count,acc
+shrink only,0.5,0.0,0,500,100.0
+shrink only,0.5,0.0,1,477,100.0
+shrink only,0.5,0.0,2,456,90.0
+shrink only,0.5,0.0,3,435,96.0
+shrink only,0.5,0.0,4,415,92.0
+shrink only,0.5,0.0,5,396,100.0
+shrink only,0.5,0.0,6,378,98.0
+shrink only,0.5,0.0,7,361,94.0
+shrink only,0.5,0.0,8,345,98.0
+shrink only,0.5,0.0,9,329,98.0
+shrink only,0.5,0.0,10,314,84.0
+shrink only,0.5,0.0,11,300,84.0
+shrink only,0.5,0.0,12,286,96.0
+shrink only,0.5,0.0,13,273,96.0
+shrink only,0.5,0.0,14,261,98.0
+shrink only,0.5,0.0,15,249,92.0
+shrink only,0.5,0.0,16,238,100.0
+shrink only,0.5,0.0,17,227,94.0
+shrink only,0.5,0.0,18,216,96.0
+shrink only,0.5,0.0,19,207,96.0
+shrink only,0.5,0.0,20,197,96.0
+shrink only,0.5,0.0,21,188,100.0
+shrink only,0.5,0.0,22,180,98.0
+shrink only,0.5,0.0,23,172,90.0
+shrink only,0.5,0.0,24,164,92.0
+shrink only,0.5,0.0,25,156,88.0
+shrink only,0.5,0.0,26,149,88.0
+shrink only,0.5,0.0,27,142,94.0
+shrink only,0.5,0.0,28,136,92.0
+shrink only,0.5,0.0,29,130,84.0
+shrink only,0.5,0.0,30,124,96.0
+shrink only,0.5,0.0,31,118,96.0
+shrink only,0.5,0.0,32,113,94.0
+shrink only,0.5,0.0,33,108,84.0
+shrink only,0.5,0.0,34,103,94.0
+shrink only,0.5,0.0,35,98,44.0
+shrink only,0.5,0.0,36,94,96.0
+shrink only,0.5,0.0,37,89,86.0
+shrink only,0.5,0.0,38,85,96.0
+shrink only,0.5,0.0,39,81,98.0
+shrink only,0.5,0.0,40,78,90.0
+shrink only,0.5,0.0,41,74,100.0
+shrink only,0.5,0.0,42,71,86.0
+shrink only,0.5,0.0,43,68,96.0
+shrink only,0.5,0.0,44,65,94.0
+shrink only,0.5,0.0,45,62,82.0
+shrink only,0.5,0.0,46,59,68.0
+shrink only,0.5,0.0,47,56,86.0
+shrink only,0.5,0.0,48,54,94.0
+shrink only,0.5,0.0,49,51,98.0
+shrink only,0.5,0.0,50,49,74.0
+shrink only,0.5,0.0,51,47,96.0
+shrink only,0.5,0.0,52,45,74.0
+shrink only,0.5,0.0,53,42,96.0
+shrink only,0.5,0.0,54,41,96.0
+shrink only,0.5,0.0,55,39,66.0
+shrink only,0.5,0.0,56,37,88.0
+shrink only,0.5,0.0,57,35,84.0
+shrink only,0.5,0.0,58,34,96.0
+shrink only,0.5,0.0,59,32,56.00000000000001
+shrink only,0.5,0.0,60,31,82.0
+shrink only,0.5,0.0,61,29,50.0
+shrink only,0.5,0.0,62,28,84.0
+shrink only,0.5,0.0,63,27,66.0
+shrink only,0.5,0.0,64,25,72.0
+shrink only,0.5,0.0,65,24,86.0
+shrink only,0.5,0.0,66,23,70.0
+shrink only,0.5,0.0,67,22,76.0
+shrink only,0.5,0.0,68,21,90.0
+shrink only,0.5,0.0,69,20,86.0
+shrink only,0.5,0.0,70,19,82.0
+shrink only,0.5,0.0,71,18,76.0
+shrink only,0.5,0.0,72,18,56.00000000000001
+shrink only,0.5,0.0,73,17,72.0
+shrink only,0.5,0.0,74,16,54.0
+shrink only,0.5,0.0,75,15,94.0
+shrink only,0.5,0.0,76,15,82.0
+shrink only,0.5,0.0,77,14,90.0
+shrink only,0.5,0.0,78,13,90.0
+shrink only,0.5,0.0,79,13,80.0
+shrink only,0.5,0.0,80,12,72.0
+shrink only,0.5,0.0,81,12,40.0
+shrink only,0.5,0.0,82,11,90.0
+shrink only,0.5,0.0,83,11,80.0
+shrink only,0.5,0.0,84,10,70.0
+shrink only,0.5,0.0,85,10,90.0
+shrink only,0.5,0.0,86,9,86.0
+shrink only,0.5,0.0,87,9,84.0
+shrink only,0.5,0.0,88,8,86.0
+shrink only,0.5,0.0,89,8,92.0
+shrink only,0.5,0.0,90,8,86.0
+shrink only,0.5,0.0,91,7,70.0
+shrink only,0.5,0.0,92,7,68.0
+shrink only,0.5,0.0,93,7,57.99999999999999
+shrink only,0.5,0.0,94,6,74.0
+shrink only,0.5,0.0,95,6,38.0
+shrink only,0.5,0.0,96,6,6.0
+shrink only,0.5,0.0,97,5,78.0
+shrink only,0.5,0.0,98,5,10.0
+shrink only,0.5,0.0,99,5,56.00000000000001
+logit adjustment only,1.0,2.0,0,500,96.0
+logit adjustment only,1.0,2.0,1,477,96.0
+logit adjustment only,1.0,2.0,2,456,88.0
+logit adjustment only,1.0,2.0,3,435,92.0
+logit adjustment only,1.0,2.0,4,415,86.0
+logit adjustment only,1.0,2.0,5,396,98.0
+logit adjustment only,1.0,2.0,6,378,96.0
+logit adjustment only,1.0,2.0,7,361,90.0
+logit adjustment only,1.0,2.0,8,345,98.0
+logit adjustment only,1.0,2.0,9,329,94.0
+logit adjustment only,1.0,2.0,10,314,72.0
+logit adjustment only,1.0,2.0,11,300,78.0
+logit adjustment only,1.0,2.0,12,286,92.0
+logit adjustment only,1.0,2.0,13,273,90.0
+logit adjustment only,1.0,2.0,14,261,96.0
+logit adjustment only,1.0,2.0,15,249,92.0
+logit adjustment only,1.0,2.0,16,238,98.0
+logit adjustment only,1.0,2.0,17,227,94.0
+logit adjustment only,1.0,2.0,18,216,92.0
+logit adjustment only,1.0,2.0,19,207,94.0
+logit adjustment only,1.0,2.0,20,197,94.0
+logit adjustment only,1.0,2.0,21,188,98.0
+logit adjustment only,1.0,2.0,22,180,94.0
+logit adjustment only,1.0,2.0,23,172,88.0
+logit adjustment only,1.0,2.0,24,164,96.0
+logit adjustment only,1.0,2.0,25,156,84.0
+logit adjustment only,1.0,2.0,26,149,84.0
+logit adjustment only,1.0,2.0,27,142,94.0
+logit adjustment only,1.0,2.0,28,136,94.0
+logit adjustment only,1.0,2.0,29,130,86.0
+logit adjustment only,1.0,2.0,30,124,92.0
+logit adjustment only,1.0,2.0,31,118,92.0
+logit adjustment only,1.0,2.0,32,113,94.0
+logit adjustment only,1.0,2.0,33,108,66.0
+logit adjustment only,1.0,2.0,34,103,90.0
+logit adjustment only,1.0,2.0,35,98,68.0
+logit adjustment only,1.0,2.0,36,94,94.0
+logit adjustment only,1.0,2.0,37,89,84.0
+logit adjustment only,1.0,2.0,38,85,84.0
+logit adjustment only,1.0,2.0,39,81,96.0
+logit adjustment only,1.0,2.0,40,78,86.0
+logit adjustment only,1.0,2.0,41,74,100.0
+logit adjustment only,1.0,2.0,42,71,86.0
+logit adjustment only,1.0,2.0,43,68,92.0
+logit adjustment only,1.0,2.0,44,65,92.0
+logit adjustment only,1.0,2.0,45,62,70.0
+logit adjustment only,1.0,2.0,46,59,70.0
+logit adjustment only,1.0,2.0,47,56,80.0
+logit adjustment only,1.0,2.0,48,54,94.0
+logit adjustment only,1.0,2.0,49,51,94.0
+logit adjustment only,1.0,2.0,50,49,68.0
+logit adjustment only,1.0,2.0,51,47,92.0
+logit adjustment only,1.0,2.0,52,45,68.0
+logit adjustment only,1.0,2.0,53,42,96.0
+logit adjustment only,1.0,2.0,54,41,96.0
+logit adjustment only,1.0,2.0,55,39,62.0
+logit adjustment only,1.0,2.0,56,37,94.0
+logit adjustment only,1.0,2.0,57,35,84.0
+logit adjustment only,1.0,2.0,58,34,98.0
+logit adjustment only,1.0,2.0,59,32,62.0
+logit adjustment only,1.0,2.0,60,31,86.0
+logit adjustment only,1.0,2.0,61,29,54.0
+logit adjustment only,1.0,2.0,62,28,86.0
+logit adjustment only,1.0,2.0,63,27,82.0
+logit adjustment only,1.0,2.0,64,25,70.0
+logit adjustment only,1.0,2.0,65,24,82.0
+logit adjustment only,1.0,2.0,66,23,72.0
+logit adjustment only,1.0,2.0,67,22,78.0
+logit adjustment only,1.0,2.0,68,21,92.0
+logit adjustment only,1.0,2.0,69,20,88.0
+logit adjustment only,1.0,2.0,70,19,80.0
+logit adjustment only,1.0,2.0,71,18,82.0
+logit adjustment only,1.0,2.0,72,18,66.0
+logit adjustment only,1.0,2.0,73,17,80.0
+logit adjustment only,1.0,2.0,74,16,76.0
+logit adjustment only,1.0,2.0,75,15,98.0
+logit adjustment only,1.0,2.0,76,15,92.0
+logit adjustment only,1.0,2.0,77,14,86.0
+logit adjustment only,1.0,2.0,78,13,88.0
+logit adjustment only,1.0,2.0,79,13,86.0
+logit adjustment only,1.0,2.0,80,12,62.0
+logit adjustment only,1.0,2.0,81,12,62.0
+logit adjustment only,1.0,2.0,82,11,94.0
+logit adjustment only,1.0,2.0,83,11,72.0
+logit adjustment only,1.0,2.0,84,10,86.0
+logit adjustment only,1.0,2.0,85,10,96.0
+logit adjustment only,1.0,2.0,86,9,88.0
+logit adjustment only,1.0,2.0,87,9,88.0
+logit adjustment only,1.0,2.0,88,8,92.0
+logit adjustment only,1.0,2.0,89,8,98.0
+logit adjustment only,1.0,2.0,90,8,84.0
+logit adjustment only,1.0,2.0,91,7,94.0
+logit adjustment only,1.0,2.0,92,7,68.0
+logit adjustment only,1.0,2.0,93,7,64.0
+logit adjustment only,1.0,2.0,94,6,94.0
+logit adjustment only,1.0,2.0,95,6,70.0
+logit adjustment only,1.0,2.0,96,6,36.0
+logit adjustment only,1.0,2.0,97,5,86.0
+logit adjustment only,1.0,2.0,98,5,50.0
+logit adjustment only,1.0,2.0,99,5,64.0
+both,0.5,1.5,0,500,92.0
+both,0.5,1.5,1,477,98.0
+both,0.5,1.5,2,456,80.0
+both,0.5,1.5,3,435,94.0
+both,0.5,1.5,4,415,86.0
+both,0.5,1.5,5,396,100.0
+both,0.5,1.5,6,378,98.0
+both,0.5,1.5,7,361,90.0
+both,0.5,1.5,8,345,98.0
+both,0.5,1.5,9,329,90.0
+both,0.5,1.5,10,314,72.0
+both,0.5,1.5,11,300,70.0
+both,0.5,1.5,12,286,90.0
+both,0.5,1.5,13,273,92.0
+both,0.5,1.5,14,261,92.0
+both,0.5,1.5,15,249,92.0
+both,0.5,1.5,16,238,96.0
+both,0.5,1.5,17,227,92.0
+both,0.5,1.5,18,216,94.0
+both,0.5,1.5,19,207,94.0
+both,0.5,1.5,20,197,90.0
+both,0.5,1.5,21,188,100.0
+both,0.5,1.5,22,180,96.0
+both,0.5,1.5,23,172,76.0
+both,0.5,1.5,24,164,98.0
+both,0.5,1.5,25,156,86.0
+both,0.5,1.5,26,149,86.0
+both,0.5,1.5,27,142,90.0
+both,0.5,1.5,28,136,92.0
+both,0.5,1.5,29,130,84.0
+both,0.5,1.5,30,124,90.0
+both,0.5,1.5,31,118,94.0
+both,0.5,1.5,32,113,90.0
+both,0.5,1.5,33,108,70.0
+both,0.5,1.5,34,103,94.0
+both,0.5,1.5,35,98,70.0
+both,0.5,1.5,36,94,96.0
+both,0.5,1.5,37,89,88.0
+both,0.5,1.5,38,85,92.0
+both,0.5,1.5,39,81,96.0
+both,0.5,1.5,40,78,90.0
+both,0.5,1.5,41,74,100.0
+both,0.5,1.5,42,71,88.0
+both,0.5,1.5,43,68,98.0
+both,0.5,1.5,44,65,92.0
+both,0.5,1.5,45,62,82.0
+both,0.5,1.5,46,59,80.0
+both,0.5,1.5,47,56,86.0
+both,0.5,1.5,48,54,96.0
+both,0.5,1.5,49,51,96.0
+both,0.5,1.5,50,49,72.0
+both,0.5,1.5,51,47,98.0
+both,0.5,1.5,52,45,72.0
+both,0.5,1.5,53,42,96.0
+both,0.5,1.5,54,41,98.0
+both,0.5,1.5,55,39,70.0
+both,0.5,1.5,56,37,92.0
+both,0.5,1.5,57,35,88.0
+both,0.5,1.5,58,34,98.0
+both,0.5,1.5,59,32,60.0
+both,0.5,1.5,60,31,86.0
+both,0.5,1.5,61,29,74.0
+both,0.5,1.5,62,28,82.0
+both,0.5,1.5,63,27,74.0
+both,0.5,1.5,64,25,74.0
+both,0.5,1.5,65,24,86.0
+both,0.5,1.5,66,23,82.0
+both,0.5,1.5,67,22,86.0
+both,0.5,1.5,68,21,100.0
+both,0.5,1.5,69,20,88.0
+both,0.5,1.5,70,19,88.0
+both,0.5,1.5,71,18,80.0
+both,0.5,1.5,72,18,76.0
+both,0.5,1.5,73,17,84.0
+both,0.5,1.5,74,16,72.0
+both,0.5,1.5,75,15,96.0
+both,0.5,1.5,76,15,94.0
+both,0.5,1.5,77,14,96.0
+both,0.5,1.5,78,13,94.0
+both,0.5,1.5,79,13,88.0
+both,0.5,1.5,80,12,80.0
+both,0.5,1.5,81,12,72.0
+both,0.5,1.5,82,11,92.0
+both,0.5,1.5,83,11,86.0
+both,0.5,1.5,84,10,90.0
+both,0.5,1.5,85,10,100.0
+both,0.5,1.5,86,9,96.0
+both,0.5,1.5,87,9,92.0
+both,0.5,1.5,88,8,96.0
+both,0.5,1.5,89,8,98.0
+both,0.5,1.5,90,8,98.0
+both,0.5,1.5,91,7,98.0
+both,0.5,1.5,92,7,80.0
+both,0.5,1.5,93,7,82.0
+both,0.5,1.5,94,6,98.0
+both,0.5,1.5,95,6,86.0
+both,0.5,1.5,96,6,34.0
+both,0.5,1.5,97,5,88.0
+both,0.5,1.5,98,5,52.0
+both,0.5,1.5,99,5,72.0
+fine-tuned as is,1.0,0.0,0,500,100.0
+fine-tuned as is,1.0,0.0,1,477,100.0
+fine-tuned as is,1.0,0.0,2,456,94.0
+fine-tuned as is,1.0,0.0,3,435,96.0
+fine-tuned as is,1.0,0.0,4,415,94.0
+fine-tuned as is,1.0,0.0,5,396,100.0
+fine-tuned as is,1.0,0.0,6,378,98.0
+fine-tuned as is,1.0,0.0,7,361,94.0
+fine-tuned as is,1.0,0.0,8,345,98.0
+fine-tuned as is,1.0,0.0,9,329,98.0
+fine-tuned as is,1.0,0.0,10,314,86.0
+fine-tuned as is,1.0,0.0,11,300,90.0
+fine-tuned as is,1.0,0.0,12,286,96.0
+fine-tuned as is,1.0,0.0,13,273,100.0
+fine-tuned as is,1.0,0.0,14,261,98.0
+fine-tuned as is,1.0,0.0,15,249,92.0
+fine-tuned as is,1.0,0.0,16,238,100.0
+fine-tuned as is,1.0,0.0,17,227,94.0
+fine-tuned as is,1.0,0.0,18,216,94.0
+fine-tuned as is,1.0,0.0,19,207,94.0
+fine-tuned as is,1.0,0.0,20,197,96.0
+fine-tuned as is,1.0,0.0,21,188,98.0
+fine-tuned as is,1.0,0.0,22,180,98.0
+fine-tuned as is,1.0,0.0,23,172,100.0
+fine-tuned as is,1.0,0.0,24,164,92.0
+fine-tuned as is,1.0,0.0,25,156,82.0
+fine-tuned as is,1.0,0.0,26,149,84.0
+fine-tuned as is,1.0,0.0,27,142,92.0
+fine-tuned as is,1.0,0.0,28,136,94.0
+fine-tuned as is,1.0,0.0,29,130,88.0
+fine-tuned as is,1.0,0.0,30,124,96.0
+fine-tuned as is,1.0,0.0,31,118,90.0
+fine-tuned as is,1.0,0.0,32,113,94.0
+fine-tuned as is,1.0,0.0,33,108,86.0
+fine-tuned as is,1.0,0.0,34,103,90.0
+fine-tuned as is,1.0,0.0,35,98,66.0
+fine-tuned as is,1.0,0.0,36,94,96.0
+fine-tuned as is,1.0,0.0,37,89,74.0
+fine-tuned as is,1.0,0.0,38,85,90.0
+fine-tuned as is,1.0,0.0,39,81,98.0
+fine-tuned as is,1.0,0.0,40,78,88.0
+fine-tuned as is,1.0,0.0,41,74,100.0
+fine-tuned as is,1.0,0.0,42,71,86.0
+fine-tuned as is,1.0,0.0,43,68,90.0
+fine-tuned as is,1.0,0.0,44,65,88.0
+fine-tuned as is,1.0,0.0,45,62,68.0
+fine-tuned as is,1.0,0.0,46,59,60.0
+fine-tuned as is,1.0,0.0,47,56,88.0
+fine-tuned as is,1.0,0.0,48,54,92.0
+fine-tuned as is,1.0,0.0,49,51,90.0
+fine-tuned as is,1.0,0.0,50,49,66.0
+fine-tuned as is,1.0,0.0,51,47,92.0
+fine-tuned as is,1.0,0.0,52,45,70.0
+fine-tuned as is,1.0,0.0,53,42,96.0
+fine-tuned as is,1.0,0.0,54,41,92.0
+fine-tuned as is,1.0,0.0,55,39,48.0
+fine-tuned as is,1.0,0.0,56,37,92.0
+fine-tuned as is,1.0,0.0,57,35,76.0
+fine-tuned as is,1.0,0.0,58,34,90.0
+fine-tuned as is,1.0,0.0,59,32,52.0
+fine-tuned as is,1.0,0.0,60,31,80.0
+fine-tuned as is,1.0,0.0,61,29,34.0
+fine-tuned as is,1.0,0.0,62,28,90.0
+fine-tuned as is,1.0,0.0,63,27,72.0
+fine-tuned as is,1.0,0.0,64,25,68.0
+fine-tuned as is,1.0,0.0,65,24,78.0
+fine-tuned as is,1.0,0.0,66,23,64.0
+fine-tuned as is,1.0,0.0,67,22,72.0
+fine-tuned as is,1.0,0.0,68,21,86.0
+fine-tuned as is,1.0,0.0,69,20,86.0
+fine-tuned as is,1.0,0.0,70,19,76.0
+fine-tuned as is,1.0,0.0,71,18,72.0
+fine-tuned as is,1.0,0.0,72,18,40.0
+fine-tuned as is,1.0,0.0,73,17,57.99999999999999
+fine-tuned as is,1.0,0.0,74,16,52.0
+fine-tuned as is,1.0,0.0,75,15,88.0
+fine-tuned as is,1.0,0.0,76,15,84.0
+fine-tuned as is,1.0,0.0,77,14,70.0
+fine-tuned as is,1.0,0.0,78,13,86.0
+fine-tuned as is,1.0,0.0,79,13,68.0
+fine-tuned as is,1.0,0.0,80,12,52.0
+fine-tuned as is,1.0,0.0,81,12,26.0
+fine-tuned as is,1.0,0.0,82,11,92.0
+fine-tuned as is,1.0,0.0,83,11,54.0
+fine-tuned as is,1.0,0.0,84,10,66.0
+fine-tuned as is,1.0,0.0,85,10,92.0
+fine-tuned as is,1.0,0.0,86,9,74.0
+fine-tuned as is,1.0,0.0,87,9,68.0
+fine-tuned as is,1.0,0.0,88,8,80.0
+fine-tuned as is,1.0,0.0,89,8,90.0
+fine-tuned as is,1.0,0.0,90,8,72.0
+fine-tuned as is,1.0,0.0,91,7,76.0
+fine-tuned as is,1.0,0.0,92,7,56.00000000000001
+fine-tuned as is,1.0,0.0,93,7,40.0
+fine-tuned as is,1.0,0.0,94,6,74.0
+fine-tuned as is,1.0,0.0,95,6,20.0
+fine-tuned as is,1.0,0.0,96,6,6.0
+fine-tuned as is,1.0,0.0,97,5,74.0
+fine-tuned as is,1.0,0.0,98,5,4.0
+fine-tuned as is,1.0,0.0,99,5,44.0

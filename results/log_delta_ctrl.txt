@@ -1,0 +1,66 @@
+model_epoch2.pt: done
+model_epoch4.pt: done
+model_epoch6.pt: done
+model_epoch8.pt: done
+model.pt: done
+
+Final model, mean over blocks, by matrix type:
+            rel    r90  stable   top8  top32  overlap32
+mtype                                                  
+attn_k    0.052  0.210   0.029  0.287  0.560      2.435
+attn_out  0.052  0.212   0.041  0.203  0.502      1.672
+attn_q    0.052  0.202   0.017  0.297  0.567      2.550
+attn_v    0.049  0.213   0.038  0.215  0.508      1.292
+mlp_in    0.052  0.365   0.019  0.200  0.416      2.238
+mlp_out   0.048  0.382   0.026  0.191  0.410      2.606
+
+Final model, mean over matrix types, by block:
+         rel    r90  stable   top8  top32  overlap32
+layer                                               
+0      0.049  0.107   0.011  0.443  0.750      4.852
+1      0.046  0.149   0.012  0.369  0.668      3.560
+2      0.047  0.202   0.019  0.269  0.563      2.354
+3      0.048  0.243   0.021  0.238  0.504      1.899
+4      0.051  0.275   0.029  0.194  0.455      1.783
+5      0.053  0.313   0.036  0.165  0.407      1.756
+6      0.052  0.331   0.036  0.161  0.393      1.712
+7      0.054  0.344   0.043  0.147  0.378      1.671
+8      0.055  0.363   0.045  0.144  0.368      1.457
+9      0.054  0.356   0.037  0.163  0.396      1.402
+10     0.050  0.312   0.030  0.201  0.453      1.446
+11     0.051  0.173   0.020  0.291  0.592      1.691
+
+Over training (mean over all 72 matrices):
+         rel    r90  stable   top8  top32  overlap32
+ckpt                                                
+2      0.039  0.243   0.022  0.265  0.533      2.075
+4      0.049  0.259   0.027  0.238  0.502      2.111
+6      0.051  0.263   0.028  0.233  0.495      2.123
+8      0.051  0.264   0.028  0.232  0.494      2.131
+final  0.051  0.264   0.028  0.232  0.494      2.132
+scoring the fine-tuned model...
+scored: {'config': 'fine-tuned (full dW)', 'all': np.float64(78.78), 'many': np.float64(93.60000000000001), 'medium': np.float64(80.34285714285714), 'few': np.float64(59.66666666666667)}
+scored: {'config': 'pretrained + rank-16 dW', 'all': np.float64(44.76), 'many': np.float64(84.05714285714285), 'medium': np.float64(35.371428571428574), 'few': np.float64(9.866666666666667)}
+scored: {'config': 'pretrained + rank-16 dW (shrink)', 'all': np.float64(79.60000000000001), 'many': np.float64(93.31428571428572), 'medium': np.float64(79.77142857142857), 'few': np.float64(63.4)}
+scored: {'config': 'pretrained + rank-16 dW (random)', 'all': np.float64(4.3999999999999995), 'many': np.float64(3.5428571428571427), 'medium': np.float64(5.828571428571429), 'few': np.float64(3.733333333333334)}
+scored: {'config': 'pretrained + rank-64 dW', 'all': np.float64(71.36), 'many': np.float64(94.34285714285714), 'medium': np.float64(77.08571428571429), 'few': np.float64(37.86666666666667)}
+scored: {'config': 'pretrained + rank-64 dW (shrink)', 'all': np.float64(81.08), 'many': np.float64(94.11428571428571), 'medium': np.float64(82.57142857142857), 'few': np.float64(64.13333333333333)}
+scored: {'config': 'pretrained + rank-64 dW (random)', 'all': np.float64(8.3), 'many': np.float64(8.057142857142857), 'medium': np.float64(10.857142857142858), 'few': np.float64(5.6000000000000005)}
+scored: {'config': 'pretrained + rank-256 dW', 'all': np.float64(78.68), 'many': np.float64(93.54285714285714), 'medium': np.float64(80.05714285714286), 'few': np.float64(59.73333333333334)}
+scored: {'config': 'pretrained + rank-256 dW (shrink)', 'all': np.float64(79.32000000000001), 'many': np.float64(93.71428571428572), 'medium': np.float64(81.14285714285714), 'few': np.float64(60.4)}
+scored: {'config': 'pretrained + rank-256 dW (random)', 'all': np.float64(43.24), 'many': np.float64(62.457142857142856), 'medium': np.float64(42.857142857142854), 'few': np.float64(21.266666666666666)}
+
+Accuracy (%) with the fine-tuning change kept only at rank r (all 72 matrices):
+                            config  all  many  medium  few
+              fine-tuned (full dW) 78.8  93.6    80.3 59.7
+           pretrained + rank-16 dW 44.8  84.1    35.4  9.9
+  pretrained + rank-16 dW (shrink) 79.6  93.3    79.8 63.4
+  pretrained + rank-16 dW (random)  4.4   3.5     5.8  3.7
+           pretrained + rank-64 dW 71.4  94.3    77.1 37.9
+  pretrained + rank-64 dW (shrink) 81.1  94.1    82.6 64.1
+  pretrained + rank-64 dW (random)  8.3   8.1    10.9  5.6
+          pretrained + rank-256 dW 78.7  93.5    80.1 59.7
+ pretrained + rank-256 dW (shrink) 79.3  93.7    81.1 60.4
+ pretrained + rank-256 dW (random) 43.2  62.5    42.9 21.3
+pretrained matrices, new head only  3.9   2.9     5.3  3.4
+DELTA_OK results/delta_w_ctrl.csv

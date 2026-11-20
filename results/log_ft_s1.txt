@@ -1,0 +1,13 @@
+ENV {'host': 'Mac.lan', 'slurm_job': None, 'slurm_account': None, 'gpu': 'Apple MPS', 'torch': '2.6.0', 'git_commit': 'e98e8875db84ad34e3fb3bb813372d3471bcfbca', 'git_dirty': False, 'time': '2026-11-20T00:33:45-0500'}
+10899 training images, 100 classes, per-class 500..5
+{'epoch': 1, 'train_loss': 1.7662217640632059, 'minutes': 16.12, 'acc': 0.6434, 'acc_many': 0.8748571428571429, 'acc_medium': 0.6657142857142857, 'acc_few': 0.3473333333333333}
+{'epoch': 2, 'train_loss': 0.4471104748634474, 'minutes': 16.32, 'acc': 0.7328, 'acc_many': 0.8897142857142857, 'acc_medium': 0.7548571428571429, 'acc_few': 0.524}
+{'epoch': 3, 'train_loss': 0.18964549377724485, 'minutes': 16.3, 'acc': 0.7522, 'acc_many': 0.884, 'acc_medium': 0.7697142857142857, 'acc_few': 0.578}
+{'epoch': 4, 'train_loss': 0.09190020108147581, 'minutes': 16.25, 'acc': 0.742, 'acc_many': 0.8942857142857142, 'acc_medium': 0.7594285714285715, 'acc_few': 0.544}
+{'epoch': 5, 'train_loss': 0.054324304919534216, 'minutes': 16.35, 'acc': 0.76, 'acc_many': 0.904, 'acc_medium': 0.7851428571428571, 'acc_few': 0.5626666666666666}
+{'epoch': 6, 'train_loss': 0.023203759525286013, 'minutes': 16.31, 'acc': 0.771, 'acc_many': 0.9142857142857143, 'acc_medium': 0.7988571428571428, 'acc_few': 0.5713333333333334}
+{'epoch': 7, 'train_loss': 0.007715869693924015, 'minutes': 16.45, 'acc': 0.7818, 'acc_many': 0.9194285714285715, 'acc_medium': 0.8097142857142857, 'acc_few': 0.5886666666666667}
+{'epoch': 8, 'train_loss': 0.003726965016422553, 'minutes': 16.95, 'acc': 0.7826, 'acc_many': 0.92, 'acc_medium': 0.8108571428571428, 'acc_few': 0.5893333333333334}
+{'epoch': 9, 'train_loss': 0.0020226379104973913, 'minutes': 18.25, 'acc': 0.7832, 'acc_many': 0.9188571428571428, 'acc_medium': 0.8108571428571428, 'acc_few': 0.5926666666666667}
+{'epoch': 10, 'train_loss': 0.0019291990729870924, 'minutes': 17.17, 'acc': 0.7834, 'acc_many': 0.9188571428571428, 'acc_medium': 0.8108571428571428, 'acc_few': 0.5933333333333334}
+FINETUNE_OK /Users/akago/data/laser-vision/cifar100lt_vitb16_s1

@@ -1,0 +1,42 @@
+{'scale': 0.3, 'split': 'select', 'all': np.float64(81.42), 'loss': 0.74, 'ece': 5.31, 'many': np.float64(93.37), 'medium': np.float64(81.43), 'few': np.float64(67.47)}
+{'scale': 0.3, 'split': 'report', 'all': np.float64(82.28), 'loss': 0.69, 'ece': 4.97, 'many': np.float64(93.37), 'medium': np.float64(81.43), 'few': np.float64(70.33)}
+{'scale': 0.4, 'split': 'select', 'all': np.float64(82.42), 'loss': 0.74, 'ece': 6.63, 'many': np.float64(94.17), 'medium': np.float64(82.69), 'few': np.float64(68.4)}
+{'scale': 0.4, 'split': 'report', 'all': np.float64(82.86), 'loss': 0.68, 'ece': 6.52, 'many': np.float64(93.89), 'medium': np.float64(82.0), 'few': np.float64(71.0)}
+{'scale': 0.5, 'split': 'select', 'all': np.float64(82.54), 'loss': 0.77, 'ece': 8.17, 'many': np.float64(94.29), 'medium': np.float64(82.86), 'few': np.float64(68.47)}
+{'scale': 0.5, 'split': 'report', 'all': np.float64(83.0), 'loss': 0.7, 'ece': 7.74, 'many': np.float64(93.94), 'medium': np.float64(82.91), 'few': np.float64(70.33)}
+{'scale': 0.6, 'split': 'select', 'all': np.float64(82.06), 'loss': 0.82, 'ece': 9.71, 'many': np.float64(94.06), 'medium': np.float64(82.29), 'few': np.float64(67.8)}
+{'scale': 0.6, 'split': 'report', 'all': np.float64(82.86), 'loss': 0.75, 'ece': 8.81, 'many': np.float64(94.34), 'medium': np.float64(83.03), 'few': np.float64(69.27)}
+{'scale': 0.7, 'split': 'select', 'all': np.float64(81.3), 'loss': 0.9, 'ece': 11.03, 'many': np.float64(93.89), 'medium': np.float64(81.77), 'few': np.float64(66.07)}
+{'scale': 0.7, 'split': 'report', 'all': np.float64(82.3), 'loss': 0.81, 'ece': 10.0, 'many': np.float64(94.34), 'medium': np.float64(82.63), 'few': np.float64(67.87)}
+{'scale': 0.8, 'split': 'select', 'all': np.float64(80.46), 'loss': 0.99, 'ece': 12.24, 'many': np.float64(93.94), 'medium': np.float64(80.97), 'few': np.float64(64.13)}
+{'scale': 0.8, 'split': 'report', 'all': np.float64(81.6), 'loss': 0.9, 'ece': 11.1, 'many': np.float64(94.17), 'medium': np.float64(82.29), 'few': np.float64(66.13)}
+{'scale': 0.9, 'split': 'select', 'all': np.float64(79.22), 'loss': 1.1, 'ece': 13.66, 'many': np.float64(93.54), 'medium': np.float64(79.71), 'few': np.float64(61.93)}
+{'scale': 0.9, 'split': 'report', 'all': np.float64(80.38), 'loss': 1.01, 'ece': 12.46, 'many': np.float64(94.06), 'medium': np.float64(80.86), 'few': np.float64(63.87)}
+{'scale': 1.0, 'split': 'select', 'all': np.float64(78.0), 'loss': 1.23, 'ece': 14.93, 'many': np.float64(93.2), 'medium': np.float64(78.46), 'few': np.float64(59.73)}
+{'scale': 1.0, 'split': 'report', 'all': np.float64(79.28), 'loss': 1.14, 'ece': 13.64, 'many': np.float64(94.17), 'medium': np.float64(79.37), 'few': np.float64(61.8)}
+
+select half:
+ scale   all  loss   ece  many  medium   few
+   0.3 81.42  0.74  5.31 93.37   81.43 67.47
+   0.4 82.42  0.74  6.63 94.17   82.69 68.40
+   0.5 82.54  0.77  8.17 94.29   82.86 68.47
+   0.6 82.06  0.82  9.71 94.06   82.29 67.80
+   0.7 81.30  0.90 11.03 93.89   81.77 66.07
+   0.8 80.46  0.99 12.24 93.94   80.97 64.13
+   0.9 79.22  1.10 13.66 93.54   79.71 61.93
+   1.0 78.00  1.23 14.93 93.20   78.46 59.73
+
+report half:
+ scale   all  loss   ece  many  medium   few
+   0.3 82.28  0.69  4.97 93.37   81.43 70.33
+   0.4 82.86  0.68  6.52 93.89   82.00 71.00
+   0.5 83.00  0.70  7.74 93.94   82.91 70.33
+   0.6 82.86  0.75  8.81 94.34   83.03 69.27
+   0.7 82.30  0.81 10.00 94.34   82.63 67.87
+   0.8 81.60  0.90 11.10 94.17   82.29 66.13
+   0.9 80.38  1.01 12.46 94.06   80.86 63.87
+   1.0 79.28  1.14 13.64 94.17   79.37 61.80
+
+best scale on select: 0.5
+report half at that scale vs c=1: all 83.00 vs 79.28, few 70.33 vs 61.80
+INTERP_OK results/interp_lora16.csv

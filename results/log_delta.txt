@@ -1,0 +1,49 @@
+model_epoch2.pt: done
+model_epoch4.pt: done
+model_epoch6.pt: done
+model_epoch8.pt: done
+model.pt: done
+
+Final model, mean over blocks, by matrix type:
+            rel    r90  stable   top8  top32  overlap32
+mtype                                                  
+attn_k    0.052  0.210   0.029  0.287  0.560      2.435
+attn_out  0.052  0.212   0.041  0.203  0.502      1.672
+attn_q    0.052  0.202   0.017  0.297  0.567      2.550
+attn_v    0.049  0.213   0.038  0.215  0.508      1.292
+mlp_in    0.052  0.365   0.019  0.200  0.416      2.238
+mlp_out   0.048  0.382   0.026  0.191  0.410      2.606
+
+Final model, mean over matrix types, by block:
+         rel    r90  stable   top8  top32  overlap32
+layer                                               
+0      0.049  0.107   0.011  0.443  0.750      4.852
+1      0.046  0.149   0.012  0.369  0.668      3.560
+2      0.047  0.202   0.019  0.269  0.563      2.354
+3      0.048  0.243   0.021  0.238  0.504      1.899
+4      0.051  0.275   0.029  0.194  0.455      1.783
+5      0.053  0.313   0.036  0.165  0.407      1.756
+6      0.052  0.331   0.036  0.161  0.393      1.712
+7      0.054  0.344   0.043  0.147  0.378      1.671
+8      0.055  0.363   0.045  0.144  0.368      1.457
+9      0.054  0.356   0.037  0.163  0.396      1.402
+10     0.050  0.312   0.030  0.201  0.453      1.446
+11     0.051  0.173   0.020  0.291  0.592      1.691
+
+Over training (mean over all 72 matrices):
+         rel    r90  stable   top8  top32  overlap32
+ckpt                                                
+2      0.039  0.243   0.022  0.265  0.533      2.075
+4      0.049  0.259   0.027  0.238  0.502      2.111
+6      0.051  0.263   0.028  0.233  0.495      2.123
+8      0.051  0.264   0.028  0.232  0.494      2.131
+final  0.051  0.264   0.028  0.232  0.494      2.132
+
+Accuracy (%) with the fine-tuning change kept only at rank r (all 72 matrices):
+                            config  all  many  medium  few
+              fine-tuned (full dW) 78.8  93.6    80.3 59.7
+            pretrained + rank-4 dW 19.9  35.9    14.7  7.1
+           pretrained + rank-16 dW 44.8  84.1    35.4  9.9
+           pretrained + rank-64 dW 71.4  94.3    77.1 37.9
+pretrained matrices, new head only  3.9   2.9     5.3  3.4
+DELTA_OK results/delta_w.csv

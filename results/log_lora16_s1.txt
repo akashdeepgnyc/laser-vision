@@ -1,0 +1,14 @@
+ENV {'host': 'Mac.lan', 'slurm_job': None, 'slurm_account': None, 'gpu': 'Apple MPS', 'torch': '2.6.0', 'git_commit': 'e98e8875db84ad34e3fb3bb813372d3471bcfbca', 'git_dirty': False, 'time': '2026-11-20T03:20:27-0500'}
+10899 training images, 100 classes, per-class 500..5
+LoRA rank 16: 2,436,196 trainable parameters
+{'epoch': 1, 'train_loss': 1.4448285509676528, 'minutes': 13.89, 'acc': 0.6606, 'acc_many': 0.88, 'acc_medium': 0.6394285714285715, 'acc_few': 0.42933333333333334}
+{'epoch': 2, 'train_loss': 0.5911469014902269, 'minutes': 14.7, 'acc': 0.6468, 'acc_many': 0.8537142857142858, 'acc_medium': 0.6485714285714286, 'acc_few': 0.4033333333333333}
+{'epoch': 3, 'train_loss': 0.3928635846659585, 'minutes': 14.25, 'acc': 0.7322, 'acc_many': 0.8862857142857142, 'acc_medium': 0.7337142857142858, 'acc_few': 0.5506666666666666}
+{'epoch': 4, 'train_loss': 0.23822718892585149, 'minutes': 14.96, 'acc': 0.7142, 'acc_many': 0.888, 'acc_medium': 0.72, 'acc_few': 0.5046666666666667}
+{'epoch': 5, 'train_loss': 0.1312732188170366, 'minutes': 14.72, 'acc': 0.749, 'acc_many': 0.8971428571428571, 'acc_medium': 0.7582857142857143, 'acc_few': 0.5653333333333334}
+{'epoch': 6, 'train_loss': 0.059998809868303235, 'minutes': 30.38, 'acc': 0.7568, 'acc_many': 0.9108571428571428, 'acc_medium': 0.7811428571428571, 'acc_few': 0.5486666666666666}
+{'epoch': 7, 'train_loss': 0.02013639053812898, 'minutes': 10.12, 'acc': 0.7772, 'acc_many': 0.9165714285714286, 'acc_medium': 0.7828571428571428, 'acc_few': 0.608}
+{'epoch': 8, 'train_loss': 0.007055467063018009, 'minutes': 9.87, 'acc': 0.7808, 'acc_many': 0.9262857142857143, 'acc_medium': 0.7845714285714286, 'acc_few': 0.6066666666666667}
+{'epoch': 9, 'train_loss': 0.003693429512314915, 'minutes': 9.85, 'acc': 0.7822, 'acc_many': 0.9274285714285714, 'acc_medium': 0.7902857142857143, 'acc_few': 0.6033333333333334}
+{'epoch': 10, 'train_loss': 0.0023539277533079664, 'minutes': 9.91, 'acc': 0.784, 'acc_many': 0.9285714285714286, 'acc_medium': 0.7942857142857143, 'acc_few': 0.6033333333333334}
+FINETUNE_OK /Users/akago/data/laser-vision/cifar100lt_lora16_s1

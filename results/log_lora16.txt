@@ -1,0 +1,14 @@
+ENV {'host': 'Mac.lan', 'slurm_job': None, 'slurm_account': None, 'gpu': 'Apple MPS', 'torch': '2.6.0', 'git_commit': 'c9964b1ebaf5b0a79c0f7cc24dadcf7e0ef45915', 'git_dirty': True, 'time': '2026-11-19T18:37:57-0500'}
+10899 training images, 100 classes, per-class 500..5
+LoRA rank 16: 2,436,196 trainable parameters
+{'epoch': 1, 'train_loss': 1.4068558817822212, 'minutes': 10.03, 'acc': 0.5954, 'acc_many': 0.768, 'acc_medium': 0.5977142857142858, 'acc_few': 0.3913333333333333}
+{'epoch': 2, 'train_loss': 0.6767811383232692, 'minutes': 9.88, 'acc': 0.7018, 'acc_many': 0.8514285714285714, 'acc_medium': 0.7, 'acc_few': 0.5293333333333333}
+{'epoch': 3, 'train_loss': 0.351356927179827, 'minutes': 9.86, 'acc': 0.697, 'acc_many': 0.8674285714285714, 'acc_medium': 0.7165714285714285, 'acc_few': 0.47533333333333333}
+{'epoch': 4, 'train_loss': 0.2150732406914846, 'minutes': 12.94, 'acc': 0.739, 'acc_many': 0.8982857142857142, 'acc_medium': 0.7502857142857143, 'acc_few': 0.54}
+{'epoch': 5, 'train_loss': 0.11199645844323676, 'minutes': 14.81, 'acc': 0.7632, 'acc_many': 0.9102857142857143, 'acc_medium': 0.7582857142857143, 'acc_few': 0.5973333333333334}
+{'epoch': 6, 'train_loss': 0.05936357490458905, 'minutes': 14.34, 'acc': 0.75, 'acc_many': 0.92, 'acc_medium': 0.7674285714285715, 'acc_few': 0.5313333333333333}
+{'epoch': 7, 'train_loss': 0.018651755011285097, 'minutes': 13.66, 'acc': 0.7758, 'acc_many': 0.9291428571428572, 'acc_medium': 0.7754285714285715, 'acc_few': 0.5973333333333334}
+{'epoch': 8, 'train_loss': 0.006093589068736773, 'minutes': 13.72, 'acc': 0.7794, 'acc_many': 0.9285714285714286, 'acc_medium': 0.7868571428571428, 'acc_few': 0.5966666666666667}
+{'epoch': 9, 'train_loss': 0.003377867504353314, 'minutes': 13.62, 'acc': 0.7794, 'acc_many': 0.932, 'acc_medium': 0.784, 'acc_few': 0.596}
+{'epoch': 10, 'train_loss': 0.00269304228710322, 'minutes': 13.54, 'acc': 0.7802, 'acc_many': 0.932, 'acc_medium': 0.7845714285714286, 'acc_few': 0.598}
+FINETUNE_OK /Users/akago/data/laser-vision/cifar100lt_lora16
