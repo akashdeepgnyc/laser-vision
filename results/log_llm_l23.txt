@@ -1,0 +1,39 @@
+Loading weights:   0%|          | 0/292 [00:00<?, ?it/s]Loading weights: 100%|██████████| 292/292 [00:00<00:00, 12007.11it/s]
+baseline: select acc 9.22 loss 5.8211 | report acc 10.05 loss 5.7723 (97.7s)
+1 matrices x 6 rhos x 4 modes
+layers.23.mlp_in|0.5|top: select acc 14.15 loss 5.4308 | report acc 15.17 loss 5.3864 (99.0s)
+layers.23.mlp_in|0.5|shrink: select acc 7.32 loss 6.1275 | report acc 7.95 loss 6.0821 (99.9s)
+layers.23.mlp_in|0.5|random: select acc 1.40 loss 8.5107 | report acc 1.30 loss 8.4758 (121.2s)
+layers.23.mlp_in|0.5|bottom: select acc 1.25 loss 9.9059 | report acc 1.20 loss 9.8564 (129.9s)
+layers.23.mlp_in|0.2|top: select acc 16.62 loss 5.2949 | report acc 17.77 loss 5.2569 (129.9s)
+layers.23.mlp_in|0.2|shrink: select acc 3.90 loss 6.9119 | report acc 4.05 loss 6.8726 (130.6s)
+layers.23.mlp_in|0.2|random: select acc 0.38 loss 9.0365 | report acc 0.33 loss 8.9876 (125.9s)
+layers.23.mlp_in|0.2|bottom: select acc 1.03 loss 11.1507 | report acc 0.95 loss 11.0891 (124.2s)
+layers.23.mlp_in|0.1|top: select acc 17.97 loss 5.2460 | report acc 18.77 loss 5.2111 (121.9s)
+layers.23.mlp_in|0.1|shrink: select acc 2.62 loss 7.5805 | report acc 2.35 loss 7.5457 (134.9s)
+layers.23.mlp_in|0.1|random: select acc 1.43 loss 8.1507 | report acc 1.45 loss 8.1031 (133.0s)
+layers.23.mlp_in|0.1|bottom: select acc 0.12 loss 11.7948 | report acc 0.15 loss 11.7404 (130.0s)
+layers.23.mlp_in|0.05|top: select acc 18.18 loss 5.2616 | report acc 18.98 loss 5.2315 (138.4s)
+layers.23.mlp_in|0.05|shrink: select acc 1.57 loss 8.1089 | report acc 1.35 loss 8.0769 (136.0s)
+layers.23.mlp_in|0.05|random: select acc 1.62 loss 8.5179 | report acc 1.38 loss 8.4842 (129.8s)
+layers.23.mlp_in|0.05|bottom: select acc 0.00 loss 12.1693 | report acc 0.00 loss 12.1112 (135.2s)
+layers.23.mlp_in|0.02|top: select acc 18.07 loss 5.2988 | report acc 18.77 loss 5.2731 (138.1s)
+layers.23.mlp_in|0.02|shrink: select acc 1.03 loss 8.5298 | report acc 0.68 loss 8.4994 (129.2s)
+layers.23.mlp_in|0.02|random: select acc 1.50 loss 8.4031 | report acc 1.32 loss 8.3761 (129.7s)
+layers.23.mlp_in|0.02|bottom: select acc 0.00 loss 11.8914 | report acc 0.03 loss 11.8575 (128.4s)
+layers.23.mlp_in|0.01|top: select acc 17.55 loss 5.4097 | report acc 17.85 loss 5.3912 (124.7s)
+layers.23.mlp_in|0.01|shrink: select acc 0.90 loss 8.6856 | report acc 0.53 loss 8.6554 (127.8s)
+layers.23.mlp_in|0.01|random: select acc 1.40 loss 8.4098 | report acc 1.27 loss 8.3794 (131.1s)
+layers.23.mlp_in|0.01|bottom: select acc 0.00 loss 10.5403 | report acc 0.00 loss 10.4858 (133.3s)
+
+Unedited: report acc 10.05, loss 5.7723
+Unedited + temperature 1.25 (chosen on select): report loss 5.6743, acc 10.05 (unchanged)
+best top    by select loss: layers.23.mlp_in rho 0.1 -> report acc 18.77, loss 5.2111
+best top    by select acc : layers.23.mlp_in rho 0.05 -> report acc 18.98, loss 5.2315
+best shrink by select loss: layers.23.mlp_in rho 0.5 -> report acc 7.95, loss 6.0821
+best shrink by select acc : layers.23.mlp_in rho 0.5 -> report acc 7.95, loss 6.0821
+best random by select loss: layers.23.mlp_in rho 0.1 -> report acc 1.45, loss 8.1031
+best random by select acc : layers.23.mlp_in rho 0.05 -> report acc 1.38, loss 8.4842
+best bottom by select loss: layers.23.mlp_in rho 0.5 -> report acc 1.20, loss 9.8564
+best bottom by select acc : layers.23.mlp_in rho 0.5 -> report acc 1.20, loss 9.8564
+LLM_OK results/llm_pythia14_l23.jsonl
