@@ -34,6 +34,7 @@ ap.add_argument("--cache", default="results/pile_counts.json")
 ap.add_argument("--bins", type=int, default=5)
 ap.add_argument("--batch", type=int, default=64)
 ap.add_argument("--workers", type=int, default=8)
+ap.add_argument("--delay", type=float, default=0.0, help="seconds to wait before each request")
 ap.add_argument("--fake", action="store_true")
 ap.add_argument("--out", required=True)
 a = ap.parse_args()
@@ -118,6 +119,7 @@ def count(q):
     body = json.dumps({"index": "v4_piletrain_llama", "query_type": "count", "query": q,
                        "max_diff_tokens": 100}).encode()
     for attempt in range(3):
+        time.sleep(a.delay)
         try:
             req = urllib.request.Request("https://api.infini-gram.io/", data=body,
                                          headers={"Content-Type": "application/json", "Accept": "application/json",
