@@ -1,5 +1,113 @@
 edit: layers.23.mlp_in rho 0.05
-Loading weights:   0%|          | 0/292 [00:00<?, ?it/s]Loading weights: 100%|██████████| 292/292 [00:00<00:00, 8968.69it/s]
+Loading weights:   0%|          | 0/292 [00:00<?, ?it/s]Loading weights: 100%|██████████| 292/292 [00:00<00:00, 13205.42it/s]
 report half: acc 10.08 -> 18.98
-count failed: Eiffel Tower AND Paris HTTP Error 403: Forbidden
-infini-gram API not reachable (see error above); counts skipped
+Pile counts: 1843 cached, 6129 to fetch
+count failed: Bugis Junction AND Singapore HTTP Error 403: Forbidden
+count failed: Colleen Zenk Pinter AND actor HTTP Error 403: Forbidden
+  200/6129
+count failed: Daniel Tammet AND English HTTP Error 403: Forbidden
+count failed: Discovery Expedition AND Antarctica HTTP Error 403: Forbidden
+  400/6129
+count failed: Edmund Husserl AND Germany HTTP Error 403: Forbidden
+count failed: Eurajoki AND Finnish HTTP Error 403: Forbidden
+  600/6129
+count failed: Formosus AND pope HTTP Error 403: Forbidden
+count failed: Garvin County AND Oklahoma HTTP Error 403: Forbidden
+count failed: Georgie Fame AND piano HTTP Error 403: Forbidden
+  800/6129
+count failed: Gladys Blake AND Sacramento HTTP Error 403: Forbidden
+count failed: Graphisoft SE AND Budapest HTTP Error 403: Forbidden
+  1000/6129
+count failed: Halchidhoma AND California HTTP Error 403: Forbidden
+count failed: Heathen Chemistry AND English HTTP Error 403: Forbidden
+  1200/6129
+count failed: Herbert Robbins AND mathematics HTTP Error 403: Forbidden
+count failed: Honda Racing Corporation AND Honda HTTP Error 403: Forbidden
+count failed: IBM System Management Facilities AND IBM HTTP Error 403: Forbidden
+  1400/6129
+count failed: Intel 80486 AND Intel HTTP Error 403: Forbidden
+count failed: Jacob Holdt AND Copenhagen HTTP Error 403: Forbidden
+  1600/6129
+count failed: Jason Statham AND English HTTP Error 403: Forbidden
+count failed: Jeddah AND Baghdad HTTP Error 403: Forbidden
+  1800/6129
+count failed: Johan Cruyff AND Dutch HTTP Error 403: Forbidden
+count failed: John Vivyan AND actor HTTP Error 403: Forbidden
+  2000/6129
+count failed: Jules Favre AND Paris HTTP Error 403: Forbidden
+count failed: Karl May AND Dresden HTTP Error 403: Forbidden
+count failed: Kingdom of Deheubarth AND Welsh HTTP Error 403: Forbidden
+  2200/6129
+count failed: Kyrgyz Revolution of 2010 AND Russian HTTP Error 403: Forbidden
+count failed: Laura Smet AND French HTTP Error 403: Forbidden
+  2400/6129
+count failed: Lesotho AND Africa HTTP Error 403: Forbidden
+count failed: Loppi AND Finnish HTTP Error 403: Forbidden
+  2600/6129
+count failed: Luxembourg AND NATO HTTP Error 403: Forbidden
+count failed: Malcolm Sargent AND London HTTP Error 403: Forbidden
+count failed: Mark Fitzpatrick AND goaltender HTTP Error 403: Forbidden
+  2800/6129
+count failed: Maurice Teynac AND French HTTP Error 403: Forbidden
+count failed: Michael Checkland AND BBC HTTP Error 403: Forbidden
+  3000/6129
+count failed: Mike Scaccia AND guitar HTTP Error 403: Forbidden
+count failed: Monthly Review AND English HTTP Error 403: Forbidden
+  3200/6129
+count failed: My Big Fat Greek Life AND CBS HTTP Error 403: Forbidden
+count failed: Nesodden IF AND Norway HTTP Error 403: Forbidden
+  3400/6129
+count failed: Nippon Yusen AND Tokyo HTTP Error 403: Forbidden
+count failed: Nuri as-Said AND politician HTTP Error 403: Forbidden
+count failed: Oslo Central Station AND Oslo HTTP Error 403: Forbidden
+  3600/6129
+count failed: Paschal Grousset AND French HTTP Error 403: Forbidden
+count failed: Perrin Beatty AND politician HTTP Error 403: Forbidden
+  3800/6129
+count failed: Pierre Daye AND Belgium HTTP Error 403: Forbidden
+count failed: Porta Pia AND Rome HTTP Error 403: Forbidden
+  4000/6129
+count failed: Quebec City AND Calgary HTTP Error 403: Forbidden
+count failed: Realtek AND Taiwan HTTP Error 403: Forbidden
+  4200/6129
+count failed: Rio de Janeiro AND Barcelona HTTP Error 403: Forbidden
+count failed: Romanian Football Federation AND FIFA HTTP Error 403: Forbidden
+count failed: Rwanda AND French HTTP Error 403: Forbidden
+  4400/6129
+count failed: Sandvine AND Waterloo HTTP Error 403: Forbidden
+count failed: Seine AND Paris HTTP Error 403: Forbidden
+  4600/6129
+count failed: Sianspheric AND Canada HTTP Error 403: Forbidden
+count failed: Somerset Land District AND Tasmania HTTP Error 403: Forbidden
+count failed: Statistics Netherlands AND Netherlands HTTP Error 403: Forbidden
+  4800/6129
+count failed: Suntribe AND Estonia HTTP Error 403: Forbidden
+count failed: Tampere Cathedral AND Finland HTTP Error 403: Forbidden
+  5000/6129
+count failed: The Bob Newhart Show AND CBS HTTP Error 403: Forbidden
+count failed: The Land Girls AND English HTTP Error 403: Forbidden
+  5200/6129
+count failed: The Soviettes AND Minneapolis HTTP Error 403: Forbidden
+count failed: Tierney Sutton AND jazz HTTP Error 403: Forbidden
+count failed: Tour de France AND France HTTP Error 403: Forbidden
+  5400/6129
+count failed: Tuva Republic AND Russian HTTP Error 403: Forbidden
+count failed: Unscripted AND HBO HTTP Error 403: Forbidden
+  5600/6129
+count failed: Viacheslav Fetisov AND hockey HTTP Error 403: Forbidden
+count failed: Wadia Group AND Mumbai HTTP Error 403: Forbidden
+  5800/6129
+count failed: William Herschel AND astronomy HTTP Error 403: Forbidden
+count failed: Wolfgang Fortner AND opera HTTP Error 403: Forbidden
+count failed: Yotam Halperin AND Hebrew HTTP Error 403: Forbidden
+  6000/6129
+count failed: fish and chips AND England HTTP Error 403: Forbidden
+  6129/6129
+
+Report half (3958 prompts with counts). Edit layers.23.mlp_in rho 0.05. Bins = quantiles of Pile co-occurrence count (0 = rarest).
+ bin    n  count_min  count_max  acc_before  acc_after  gain  ci_lo  ci_hi  loss_change
+   0 2375          0         95        7.96      14.99  7.03   5.94   8.13        -0.55
+   1  791         96        626        8.22      18.20  9.99   7.84  12.39        -0.57
+   2  792        627   13326848       18.56      32.07 13.51  10.98  16.16        -0.48
+Spearman(log count, per-prompt accuracy change) = +0.072
+RARE_OK results/rare_pythia14

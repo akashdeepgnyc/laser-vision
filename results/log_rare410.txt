@@ -1,5 +1,13 @@
 edit: layers.23.mlp_out rho 0.01
-Loading weights:   0%|          | 0/292 [00:00<?, ?it/s]Loading weights: 100%|██████████| 292/292 [00:00<00:00, 10110.09it/s]
+Loading weights:   0%|          | 0/292 [00:00<?, ?it/s]Loading weights: 100%|██████████| 292/292 [00:00<00:00, 11046.80it/s]
 report half: acc 6.25 -> 13.00
-count failed: Eiffel Tower AND Paris HTTP Error 403: Forbidden
-infini-gram API not reachable (see error above); counts skipped
+Pile counts: 3972 cached, 28 to fetch
+  28/28
+
+Report half (2000 prompts with counts). Edit layers.23.mlp_out rho 0.01. Bins = quantiles of Pile co-occurrence count (0 = rarest).
+ bin    n  count_min  count_max  acc_before  acc_after  gain  ci_lo  ci_hi  loss_change
+   0 1200          0         94        5.00      11.17  6.17   4.75   7.67        -0.26
+   1  400         95        615        4.50      11.75  7.25   4.50  10.00        -0.35
+   2  400        616  172496942       11.75      19.75  8.00   4.75  11.25        -0.18
+Spearman(log count, per-prompt accuracy change) = +0.026
+RARE_OK results/rare_pythia410
