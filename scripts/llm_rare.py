@@ -127,7 +127,7 @@ def count(q):
                 raise RuntimeError(d["error"])
             return int(d["count"])
         except Exception as e:
-            time.sleep(2 ** attempt)
+            time.sleep(5 * 3 ** attempt)
             err = e
     print("count failed:", q, err, flush=True)
     return None
@@ -167,7 +167,7 @@ res = pd.DataFrame(res)
 res.to_csv(str(a.out) + "_bins.csv", index=False)
 pd.set_option("display.width", 160)
 print(res.round(2).to_string(index=False))
-rho_s = pd.Series(np.log1p(rep["count"])).rank().corr(pd.Series(rep.acc1.values - rep.acc0.values).rank())
+rho_s = float(np.corrcoef(pd.Series(np.log1p(rep["count"].values)).rank(), pd.Series(rep.acc1.values - rep.acc0.values).rank())[0, 1])
 print(f"Spearman(log count, per-prompt accuracy change) = {rho_s:+.3f}")
 
 import matplotlib
